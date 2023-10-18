@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1097</width>
+    <height>698</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">*{
+font-family: century gothic;
+font-size: 24px;
+}
+
+QDialog
+{
+background-color: qlineargradient(spread:pad, x1:0.221, y1:0.772909, x2:1, y2:0, stop:0 rgba(70, 169, 255, 255), stop:1 rgba(255, 255, 255, 255))
+}</string>
+  </property>
+  <widget class="QWidget" name="verticalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>651</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="VerticalLayout">
+    <property name="sizeConstraint">
+     <enum>QLayout::SetNoConstraint</enum>
+    </property>
+    <item>
+     <layout class="QHBoxLayout" name="HorizontalLayout">
+      <item>
+       <widget class="QFrame" name="NavBar">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">#NavBar
+{
+background-color: #333;
+}</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <widget class="QLabel" name="Logo">
+         <property name="geometry">
+          <rect>
+           <x>60</x>
+           <y>10</y>
+           <width>61</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="textFormat">
+          <enum>Qt::AutoText</enum>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="logoqrc.qrc">:/newPrefix/image/logo.jpg</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QLabel" name="LogoNom">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>40</y>
+           <width>221</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">#LogoNom
+{
+color:white;
+background: transparent;
+font-family: Lemon Milk;
+font-style: italic;
+}</string>
+         </property>
+         <property name="text">
+          <string>APPLIVISITEUR</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="AccueilBouton">
+         <property name="geometry">
+          <rect>
+           <x>200</x>
+           <y>10</y>
+           <width>81</width>
+           <height>51</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">#AccueilBouton
+{
+background: transparent;
+color: white;
+font-style: normal;
+font-size: 20px;
+font-family: Lemon Milk;
+}</string>
+         </property>
+         <property name="text">
+          <string>Accueil</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="InformationsBouton">
+         <property name="geometry">
+          <rect>
+           <x>290</x>
+           <y>10</y>
+           <width>121</width>
+           <height>51</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">#InformationsBouton
+{
+background: transparent;
+color: white;
+font-style: normal;
+font-size: 20px;
+font-family: Lemon Milk;
+}</string>
+         </property>
+         <property name="text">
+          <string>Informations</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="AgendaBouton">
+         <property name="geometry">
+          <rect>
+           <x>420</x>
+           <y>10</y>
+           <width>81</width>
+           <height>51</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">#AgendaBouton
+{
+background: transparent;
+color: white;
+font-style: normal;
+font-size: 20px;
+font-family: Lemon Milk;
+}</string>
+         </property>
+         <property name="text">
+          <string>Agenda</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="DeconnexionBouton">
+         <property name="geometry">
+          <rect>
+           <x>510</x>
+           <y>20</y>
+           <width>121</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">#DeconnexionBouton
+{
+background: transparent;
+color: white;
+font-style: normal;
+font-size: 20px;
+font-family: Lemon Milk;
+}</string>
+         </property>
+         <property name="text">
+          <string>Déconnexion</string>
+         </property>
+        </widget>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="verticalLayoutWidget_2">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>130</y>
+     <width>651</width>
+     <height>251</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="VerticalLayout2">
+    <property name="spacing">
+     <number>1</number>
+    </property>
+    <item>
+     <layout class="QHBoxLayout" name="HorizontalLayout5">
+      <item>
+       <layout class="QHBoxLayout" name="HorizontalLayout4">
+        <item>
+         <widget class="QFrame" name="FrameChoix1">
+          <property name="styleSheet">
+           <string notr="true">#FrameChoix1
+{
+background-color: rgba(255,255,255,200);
+border-radius: 25px;
+}</string>
+          </property>
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+          <widget class="QLabel" name="Saisie">
+           <property name="geometry">
+            <rect>
+             <x>50</x>
+             <y>50</y>
+             <width>211</width>
+             <height>41</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Saisie de rapport</string>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+          </widget>
+          <widget class="QLabel" name="ImagePencil">
+           <property name="geometry">
+            <rect>
+             <x>100</x>
+             <y>100</y>
+             <width>111</width>
+             <height>81</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap resource="logoqrc.qrc">:/newPrefix/image/pencil.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="SaisieBouton">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>0</y>
+             <width>321</width>
+             <height>271</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">#SaisieBouton
+{
+background: transparent;
+}</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <widget class="QFrame" name="FrameChoix2">
+        <property name="styleSheet">
+         <string notr="true">#FrameChoix2
+{
+background-color: rgba(255,255,255,200);
+border-radius: 25px;
+}</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <widget class="QLabel" name="Consultation">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>50</y>
+           <width>291</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Consultation de rapport</string>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label">
+         <property name="geometry">
+          <rect>
+           <x>110</x>
+           <y>90</y>
+           <width>121</width>
+           <height>111</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="logoqrc.qrc">:/newPrefix/image/rapport.png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="ConsultationBouton">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>0</y>
+           <width>321</width>
+           <height>271</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">#ConsultationBouton
+{
+background: transparent;
+}</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="horizontalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>70</y>
+     <width>118</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="HorizontalLayout2">
+    <item>
+     <widget class="QLabel" name="Visiteur">
+      <property name="styleSheet">
+       <string notr="true">#Visiteur
+{
+color: black;
+font-family: century gothic;
+font-weight: bold;
+font-style: italic;
+font-size: 25px;
+}</string>
+      </property>
+      <property name="text">
+       <string>Visiteur :</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="horizontalLayoutWidget_2">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>70</y>
+     <width>531</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="HorizontalLayout3">
+    <item>
+     <widget class="QLabel" name="NomVisiteur">
+      <property name="styleSheet">
+       <string notr="true">#NomVisiteur
+{
+color: black;
+font-family: century gothic;
+font-style: italic;
+font-size: 25px;
+}</string>
+      </property>
+      <property name="text">
+       <string>Nom Prénom</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources>
+  <include location="logoqrc.qrc"/>
+  <include location="logoqrc.qrc"/>
+ </resources>
+ <connections/>
+</ui>

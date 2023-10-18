@@ -1,0 +1,18 @@
+29/03/2022 14:53:40 None                     /GSB/medicaments?    127.0.0.1  A tenté d'acceder à une ressource sans être connecté 
+04/04/2022 16:53:37 axel                     /GSB/connexion?      127.0.0.1 UTILISATEUR CONNECTE
+05/04/2022 15:17:41 None                     /GSB/CR/visiteur?    127.0.0.1  A tenté d'acceder à une ressource sans être connecté
+05/04/2022 15:17:57 None                     /GSB/CR/visiteur?    127.0.0.1  A tenté d'acceder à une ressource sans être connecté
+05/04/2022 15:18:29 axel                     /GSB/connexion?      127.0.0.1 UTILISATEUR CONNECTE
+05/04/2022 15:18:54 axel                     /GSB/connexion?      127.0.0.1 UTILISATEUR CONNECTE
+05/04/2022 15:19:10 axel                     /GSB/CR/visiteur?    127.0.0.1 l'utilisateur à accedé à une ressources
+05/04/2022 15:26:28 None                     /GSB/connexion?      127.0.0.1 Tentative de connexion avec :axel OR 1=1
+05/04/2022 15:27:07 None                     /GSB/connexion?      127.0.0.1 Tentative de connexion avec :axel OR 1=1
+05/04/2022 15:27:09 None                     /GSB/connexion?      127.0.0.1 Tentative de connexion avec :axel OR 1=1
+05/04/2022 15:29:28 axel                     /GSB/connexion?      127.0.0.1 UTILISATEUR CONNECTE
+05/04/2022 15:31:23 axel                     /GSB/CR/visiteur?    127.0.0.1 l'utilisateur à accedé à une ressources
+05/04/2022 15:35:14 axel                     /GSB/connexion?      127.0.0.1 UTILISATEUR CONNECTE
+05/04/2022 15:35:27 axel                     /GSB/CR/visiteur?    127.0.0.1 l'utilisateur à accedé à une ressources
+05/04/2022 15:35:42 axel                     /GSB/CR/visiteur?    127.0.0.1 l'utilisateur à accedé à une ressources
+05/04/2022 15:35:49 axel                     /GSB/CR/visiteur?    127.0.0.1 l'utilisateur à accedé à une ressources
+05/04/2022 15:37:42 axel                     /GSB/CR/visiteur?    127.0.0.1 l'utilisateur à accedé à une ressources
+05/04/2022 15:38:48 axel                     /GSB/CR/visiteur?    127.0.0.1 l'utilisateur à accedé à une ressources

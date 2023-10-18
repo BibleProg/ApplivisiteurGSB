@@ -1,0 +1,1545 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+<meta name="generator" content="pdoc 0.10.0" />
+<title>Applivisiteur API documentation</title>
+<meta name="description" content="" />
+<link rel="preload stylesheet" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/11.0.1/sanitize.min.css" integrity="sha256-PK9q560IAAa6WVRRh76LtCaI8pjTJ2z11v0miyNNjrs=" crossorigin>
+<link rel="preload stylesheet" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/11.0.1/typography.min.css" integrity="sha256-7l/o7C8jubJiy74VsKTidCy1yBkRtiUGbVkYBylBqUg=" crossorigin>
+<link rel="stylesheet preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/styles/github.min.css" crossorigin>
+<style>:root{--highlight-color:#fe9}.flex{display:flex !important}body{line-height:1.5em}#content{padding:20px}#sidebar{padding:30px;overflow:hidden}#sidebar > *:last-child{margin-bottom:2cm}.http-server-breadcrumbs{font-size:130%;margin:0 0 15px 0}#footer{font-size:.75em;padding:5px 30px;border-top:1px solid #ddd;text-align:right}#footer p{margin:0 0 0 1em;display:inline-block}#footer p:last-child{margin-right:30px}h1,h2,h3,h4,h5{font-weight:300}h1{font-size:2.5em;line-height:1.1em}h2{font-size:1.75em;margin:1em 0 .50em 0}h3{font-size:1.4em;margin:25px 0 10px 0}h4{margin:0;font-size:105%}h1:target,h2:target,h3:target,h4:target,h5:target,h6:target{background:var(--highlight-color);padding:.2em 0}a{color:#058;text-decoration:none;transition:color .3s ease-in-out}a:hover{color:#e82}.title code{font-weight:bold}h2[id^="header-"]{margin-top:2em}.ident{color:#900}pre code{background:#f8f8f8;font-size:.8em;line-height:1.4em}code{background:#f2f2f1;padding:1px 4px;overflow-wrap:break-word}h1 code{background:transparent}pre{background:#f8f8f8;border:0;border-top:1px solid #ccc;border-bottom:1px solid #ccc;margin:1em 0;padding:1ex}#http-server-module-list{display:flex;flex-flow:column}#http-server-module-list div{display:flex}#http-server-module-list dt{min-width:10%}#http-server-module-list p{margin-top:0}.toc ul,#index{list-style-type:none;margin:0;padding:0}#index code{background:transparent}#index h3{border-bottom:1px solid #ddd}#index ul{padding:0}#index h4{margin-top:.6em;font-weight:bold}@media (min-width:200ex){#index .two-column{column-count:2}}@media (min-width:300ex){#index .two-column{column-count:3}}dl{margin-bottom:2em}dl dl:last-child{margin-bottom:4em}dd{margin:0 0 1em 3em}#header-classes + dl > dd{margin-bottom:3em}dd dd{margin-left:2em}dd p{margin:10px 0}.name{background:#eee;font-weight:bold;font-size:.85em;padding:5px 10px;display:inline-block;min-width:40%}.name:hover{background:#e0e0e0}dt:target .name{background:var(--highlight-color)}.name > span:first-child{white-space:nowrap}.name.class > span:nth-child(2){margin-left:.4em}.inherited{color:#999;border-left:5px solid #eee;padding-left:1em}.inheritance em{font-style:normal;font-weight:bold}.desc h2{font-weight:400;font-size:1.25em}.desc h3{font-size:1em}.desc dt code{background:inherit}.source summary,.git-link-div{color:#666;text-align:right;font-weight:400;font-size:.8em;text-transform:uppercase}.source summary > *{white-space:nowrap;cursor:pointer}.git-link{color:inherit;margin-left:1em}.source pre{max-height:500px;overflow:auto;margin:0}.source pre code{font-size:12px;overflow:visible}.hlist{list-style:none}.hlist li{display:inline}.hlist li:after{content:',\2002'}.hlist li:last-child:after{content:none}.hlist .hlist{display:inline;padding-left:1em}img{max-width:100%}td{padding:0 .5em}.admonition{padding:.1em .5em;margin-bottom:1em}.admonition-title{font-weight:bold}.admonition.note,.admonition.info,.admonition.important{background:#aef}.admonition.todo,.admonition.versionadded,.admonition.tip,.admonition.hint{background:#dfd}.admonition.warning,.admonition.versionchanged,.admonition.deprecated{background:#fd4}.admonition.error,.admonition.danger,.admonition.caution{background:lightpink}</style>
+<style media="screen and (min-width: 700px)">@media screen and (min-width:700px){#sidebar{width:30%;height:100vh;overflow:auto;position:sticky;top:0}#content{width:70%;max-width:100ch;padding:3em 4em;border-left:1px solid #ddd}pre code{font-size:1em}.item .name{font-size:1em}main{display:flex;flex-direction:row-reverse;justify-content:flex-end}.toc ul ul,#index ul{padding-left:1.5em}.toc > ul > li{margin-top:.5em}}</style>
+<style media="print">@media print{#sidebar h1{page-break-before:always}.source{display:none}}@media print{*{background:transparent !important;color:#000 !important;box-shadow:none !important;text-shadow:none !important}a[href]:after{content:" (" attr(href) ")";font-size:90%}a[href][title]:after{content:none}abbr[title]:after{content:" (" attr(title) ")"}.ir a:after,a[href^="javascript:"]:after,a[href^="#"]:after{content:""}pre,blockquote{border:1px solid #999;page-break-inside:avoid}thead{display:table-header-group}tr,img{page-break-inside:avoid}img{max-width:100% !important}@page{margin:0.5cm}p,h2,h3{orphans:3;widows:3}h1,h2,h3,h4,h5,h6{page-break-after:avoid}}</style>
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/highlight.min.js" integrity="sha256-Uv3H6lx7dJmRfRvH8TH6kJD1TSK1aFcwgx+mdg3epi8=" crossorigin></script>
+<script>window.addEventListener('DOMContentLoaded', () => hljs.initHighlighting())</script>
+</head>
+<body>
+<main>
+<article id="content">
+<header>
+<h1 class="title">Module <code>Applivisiteur</code></h1>
+</header>
+<section id="section-intro">
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">from PyQt5.QtCore import QDate
+from PyQt5.QtWidgets import QDialog, QTableWidgetItem, QApplication, QMainWindow
+from PyQt5.uic import loadUi
+from datetime import date
+import json
+import sys
+import requests
+from PyQt5.QtGui import QIcon
+
+# variable contenant l&#39;url de connection
+import configparser
+config = configparser.ConfigParser()
+config.read(&#39;config.ini&#39;)
+serveur = config[&#39;SERVEUR&#39;]
+
+id_visiteur = &#39;&#39;
+
+
+class FenetreMaitresse(QMainWindow):
+    &#34;&#34;&#34;
+    class utilisee pour contenir les autres objets fenetre
+
+    ...
+
+    Attributes
+    ----------
+    stackedWidget : obj
+        un objet enfant permettant de contenir des objets (ici des fenetres)
+
+    &#34;&#34;&#34;
+    def __init__(self):
+        &#34;&#34;&#34;
+        Parameters
+        ----------
+        stackedWidget : obj
+            un objet permettant de contenir des objets (ici des fenetres)
+        &#34;&#34;&#34;
+        super(FenetreMaitresse, self).__init__()
+        loadUi(&#34;UI/fenetre_maitresse.ui&#34;, self)
+        fenetre_connexion = FenetreConnexion()
+        # fenetre_connexion = FenetrePrincipale()
+        self.stackedWidget.addWidget(fenetre_connexion)
+        self.stackedWidget.setCurrentWidget(fenetre_connexion)
+
+
+
+
+class FenetreInformation(QDialog):
+    &#34;&#34;&#34;
+    class pour creer une fenetre qui affiche les informations des médecins
+
+    ...
+
+    Attributes
+    ----------
+    RobertBouton(afficher_information_praticien()) : obj
+        un objet bouton permettant de changer de fenetre
+    CelineBouton(afficher_information_praticien()) : obj
+        un objet bouton permettant de changer de fenetre
+    HugeBouton(afficher_information_praticien()) : obj
+        un objet bouton permettant de changer de fenetre
+    RetourInformationMedecin(afficher_information_praticien()) : obj
+        un objet bouton permettant de fermer la fenetre
+
+    Methods
+    -------
+    fermer_fenetre(self)
+        Ferme la fenetre la plus récente
+    afficher_information_medecin(self, id)
+        Affiche les informations des praticiens
+    &#34;&#34;&#34;
+    def __init__(self):
+        &#34;&#34;&#34;
+        Parameters
+        ----------
+        RobertBouton(afficher_information_praticien()) : obj
+            un objet bouton permettant de changer de fenetre
+        CelineBouton(afficher_information_praticien()) : obj
+            un objet bouton permettant de changer de fenetre
+        HugeBouton(afficher_information_praticien()) : obj
+            un objet bouton permettant de changer de fenetre
+        RetourInformationMedecin(self.fermer_fenetre()) : obj
+            un objet bouton permettant de fermer la fenetre
+        &#34;&#34;&#34;
+        super(FenetreInformation, self).__init__()
+        loadUi(&#34;UI/fenetre_information.ui&#34;, self)
+        self.RetourInformation.clicked.connect(self.fermer_fenetre)
+
+        self.SelectionInfo.addItem(&#39;-Praticiens-&#39;)
+        self.SelectionInfo.addItem(&#39;-Médicaments-&#39;)
+
+        self.sur_changement()
+        self.SelectionInfo.currentTextChanged.connect(self.sur_changement)
+        self.listWidgetInfo.itemClicked.connect(self.afficher_information)
+
+    def sur_changement(self):
+
+        self.listWidgetInfo.clear()
+
+        if self.SelectionInfo.currentText() == &#39;-Praticiens-&#39;:
+
+            self.infoPraticiens = {}
+
+            requete_info = requests.get(serveur[&#39;protocole&#39;] + &#39;://&#39; + serveur[&#39;host&#39;] + &#39;:&#39; + serveur[&#39;port&#39;] + &#39;/GSB/medecins&#39;)
+            if requete_info.status_code == 200:
+
+                medecins_json = json.loads(requete_info.text)
+
+                for i in range(len(medecins_json)):
+                    nom_total = str(medecins_json[i][&#39;Prenom&#39;] + &#39; &#39; + medecins_json[i][&#39;Nom&#39;])
+                    self.infoPraticiens[nom_total] = medecins_json[i]
+
+                # j&#39;ordonne les noms des praticiens par ordre alphabetique
+                infoPraticiens_ordonnes = sorted(self.infoPraticiens.keys(), key=lambda x: x.lower())
+
+                for nom_praticien in infoPraticiens_ordonnes:
+                    self.listWidgetInfo.addItem(nom_praticien)
+
+            else:
+                pass
+
+        if self.SelectionInfo.currentText() == &#39;-Médicaments-&#39;:
+
+            self.infoMedicament = {}
+
+            requete_info = requests.get(serveur[&#39;protocole&#39;] + &#39;://&#39; + serveur[&#39;host&#39;] + &#39;:&#39; + serveur[&#39;port&#39;] + &#39;/GSB/medicament&#39;)
+            medicaments_json = json.loads(requete_info.text)
+
+            for i in range(len(medicaments_json)) :
+                self.infoMedicament[str(medicaments_json[i][&#39;Label&#39;])] = medicaments_json[i]
+
+            # j&#39;ordonne les noms des praticiens par ordre alphabetique
+            self.infoMedicament_ordonnes = sorted(self.infoMedicament.keys(), key=lambda x: x.lower())
+
+            for nom_medicament in self.infoMedicament_ordonnes:
+                self.listWidgetInfo.addItem(nom_medicament)
+
+        return 0
+
+    # fonction pour détruire la page
+    def fermer_fenetre(self):
+        &#34;&#34;&#34;
+        Methods
+        -------
+        fermer_fenetre(self)
+            Ferme la fenetre la plus récente
+        &#34;&#34;&#34;
+        win.stackedWidget.removeWidget(self)
+        self.reject()
+
+    def afficher_information(self):
+        &#34;&#34;&#34;
+        Methods
+        -------
+        afficher_information_medecin(self, id)
+            Affiche les informations des praticiens
+        &#34;&#34;&#34;
+
+        if self.SelectionInfo.currentText() == &#39;-Praticiens-&#39;:
+            widget_info_medecin = loadUi(&#34;UI/widgets/widget_info_medecin.ui&#34;)
+            self.StackedWidgetInfo.addWidget(widget_info_medecin)
+            self.StackedWidgetInfo.setCurrentWidget(widget_info_medecin)
+
+            if self.listWidgetInfo.count() is not None:
+
+                widget_info_medecin.InfoPrenomPraticien.setText(
+                    str(self.infoPraticiens[self.listWidgetInfo.currentItem().text()][&#39;Prenom&#39;]))
+                widget_info_medecin.InfoNomPraticien.setText(
+                    str(self.infoPraticiens[self.listWidgetInfo.currentItem().text()][&#39;Nom&#39;]))
+                widget_info_medecin.InfoCvPraticien.setText(
+                    str(self.infoPraticiens[self.listWidgetInfo.currentItem().text()][&#39;Civilite&#39;]))
+                widget_info_medecin.InfoAdressePraticien.setText(
+                    str(self.infoPraticiens[self.listWidgetInfo.currentItem().text()][&#39;Adresse&#39;]))
+                widget_info_medecin.InfoCPPraticien.setText(
+                    str(self.infoPraticiens[self.listWidgetInfo.currentItem().text()][&#39;CP&#39;]))
+                widget_info_medecin.InfoVillePraticien.setText(
+                    str(self.infoPraticiens[self.listWidgetInfo.currentItem().text()][&#39;Ville&#39;]))
+                widget_info_medecin.InfoCNPraticien.setText(
+                    str(self.infoPraticiens[self.listWidgetInfo.currentItem().text()][&#39;CoefNotoriete&#39;]))
+                widget_info_medecin.InfoSecteurPraticien.setText(
+                    str(self.infoPraticiens[self.listWidgetInfo.currentItem().text()][&#39;Secteur_id&#39;]))
+
+        if self.SelectionInfo.currentText() == &#39;-Médicaments-&#39;:
+            widget_info_medicament = loadUi(&#34;UI/widgets/widget_info_medicament.ui&#34;)
+            self.StackedWidgetInfo.addWidget(widget_info_medicament)
+            self.StackedWidgetInfo.setCurrentWidget(widget_info_medicament)
+
+            if self.listWidgetInfo.count() is not None:
+
+                widget_info_medicament.InfoLabelPraticien.setText(
+                    str(self.infoMedicament[self.listWidgetInfo.currentItem().text()][&#39;Label&#39;]))
+                widget_info_medicament.InfoDatePraticien.setText(
+                    str(self.infoMedicament[self.listWidgetInfo.currentItem().text()][&#39;Date&#39;]))
+                widget_info_medicament.InfoCompPraticien.setText(
+                    str(self.infoMedicament[self.listWidgetInfo.currentItem().text()][&#39;Composition&#39;]))
+                widget_info_medicament.InfoEffetPraticien.setText(
+                    str(self.infoMedicament[self.listWidgetInfo.currentItem().text()][&#39;Effets&#39;]))
+                widget_info_medicament.InfoCIPraticien.setText(
+                    str(self.infoMedicament[self.listWidgetInfo.currentItem().text()][&#39;ContreIndic&#39;]))
+                widget_info_medicament.InfoPrixPraticien.setText(
+                    str(self.infoMedicament[self.listWidgetInfo.currentItem().text()][&#39;Prix&#39;]))
+                widget_info_medicament.InfoStockPraticien.setText(
+                    str(self.infoMedicament[self.listWidgetInfo.currentItem().text()][&#39;Stock&#39;]))
+
+
+class FenetreConnexion(QDialog):
+    &#34;&#34;&#34;
+        class qui creer une fenetre pour se connecter a l&#39;application
+
+        ...
+
+        Attributes
+        ----------
+        champsMDP : obj
+            a formatted string to print out what the animal says
+        name : str
+            the name of the animal
+        sound : str
+            the sound that the animal makes
+        num_legs : int
+            the number of legs the animal has (default 4)
+
+        Methods
+        -------
+        says(sound=None)
+            Prints the animals name and what sound it makes
+        &#34;&#34;&#34;
+    def __init__(self):
+        super(FenetreConnexion, self).__init__()
+        loadUi(&#34;UI/fenetre_connexion.ui&#34;, self)
+
+        self.loginBouton.clicked.connect(self.connexion)
+        # self.loginBouton.clicked.connect(self.aller_vers_fenetre_principale)
+
+    def connexion(self):
+
+        global id_visiteur
+
+        # je construis un dictionnaire pour l&#39;envoyer sous format Json
+        login_json = {&#34;Login&#34;: self.champsLogin.text(),
+                        &#34;Password&#34;: self.champsMDP.text()}
+        requete = requests.get(
+            serveur[&#39;protocole&#39;] + &#39;://&#39; + serveur[&#39;host&#39;] + &#39;:&#39; + serveur[&#39;port&#39;] + &#39;/GSB/connexion&#39;,
+            json=login_json,
+            headers={&#39;Content-Type&#39;: &#39;application/json&#39;})
+
+        if requete.status_code == &#39;200&#39;:
+            infos_visiteur = json.loads(requete.text)
+            id_visiteur = infos_visiteur[&#39;Id&#39;]
+            self.aller_vers_fenetre_principale(infos_visiteur[&#39;Nom&#39;], infos_visiteur[&#39;Prenom&#39;])
+        else:
+            self.champsMDP.setText(&#39;&#39;)
+
+
+    # la méthode statique permet de prévenir la fonction d&#39;altérer la class
+    @staticmethod
+    def aller_vers_fenetre_principale(nom, prenom):
+        fenetre_principale = FenetrePrincipale(nom, prenom)
+        win.stackedWidget.addWidget(fenetre_principale)
+        win.stackedWidget.setCurrentWidget(fenetre_principale)
+
+
+class FenetrePrincipale(QDialog):
+    global id_visiteur
+
+    def __init__(self, nom, prenom):
+        super(FenetrePrincipale, self).__init__()
+        loadUi(&#34;UI/fenetre_principale.ui&#34;, self)
+        self.nom = nom
+        self.prenom = prenom
+
+        self.nomVisiteur.setText(self.nom + &#39; - &#39; + self.prenom)
+        self.SaisieBouton.clicked.connect(self.aller_vers_fenetresaisie)
+        self.ConsultationBouton.clicked.connect(self.aller_vers_fenetre_consultation)
+        self.DeconnexionBouton.clicked.connect(self.aller_vers_fenetre_connexion)
+        self.InformationsBouton.clicked.connect(self.aller_vers_fenetre_information)
+
+    @staticmethod
+    def aller_vers_fenetresaisie():
+        fenetre_saisie = FenetreSaisie()
+        win.stackedWidget.addWidget(fenetre_saisie)
+        win.stackedWidget.setCurrentWidget(fenetre_saisie)
+
+    @staticmethod
+    def aller_vers_fenetre_connexion():
+        fenetre_connexion = FenetreConnexion()
+        win.stackedWidget.addWidget(fenetre_connexion)
+        win.stackedWidget.setCurrentWidget(fenetre_connexion)
+
+    @staticmethod
+    def aller_vers_fenetre_consultation():
+        fenetre_consultation = FenetreConsultation()
+        win.stackedWidget.addWidget(fenetre_consultation)
+        win.stackedWidget.setCurrentWidget(fenetre_consultation)
+
+    @staticmethod
+    def aller_vers_fenetre_information():
+        fenetre_information = FenetreInformation()
+        win.stackedWidget.addWidget(fenetre_information)
+        win.stackedWidget.setCurrentWidget(fenetre_information)
+
+
+class FenetreSaisie(QDialog):
+    global id_visiteur
+    def __init__(self):
+        super(FenetreSaisie, self).__init__()
+        loadUi(&#34;UI/fenetre_saisie_rapport_layouted.ui&#34;, self)
+
+        # dictionnaire des praticiens et des médicaments
+        self.praticiens = {}
+        self.medicaments = {}
+
+        # requete pour obtenir les medecins
+        requete = requests.get(serveur[&#39;protocole&#39;] + &#39;://&#39; + serveur[&#39;host&#39;] + &#39;:&#39; + serveur[&#39;port&#39;] + &#39;/GSB/medecin&#39;)
+        medecins_json = json.loads(requete.text)
+        del requete
+
+        # creation d&#39;un dictionnaire pour lier les noms des praticiens avec leur id
+        for i in range(len(medecins_json)):
+            nom_total = str(medecins_json[i][&#39;Prenom&#39;] + &#39; &#39; + medecins_json[i][&#39;Nom&#39;])
+            self.praticiens[nom_total] = {&#34;Id&#34;: medecins_json[i][&#39;Id&#39;], &#34;Secteur_id&#34;: medecins_json[i][&#39;Secteur_id&#39;]}
+
+        # j&#39;ordonne les noms des praticiens par ordre alphabetique
+        self.praticiens_ordonnes = sorted(self.praticiens.keys(), key=lambda x: x.lower())
+
+        requete_secteur = requests.get(serveur[&#39;protocole&#39;] + &#39;://&#39; + serveur[&#39;host&#39;] + &#39;:&#39; + serveur[&#39;port&#39;] + &#39;/GSB/visiteur/secteur_id/&#39;+str(id_visiteur))
+
+        # j&#39;ajoute les praticiens ordonnés en fonction du secteur du visiteur
+        for nom_praticien in self.praticiens_ordonnes:
+            if int(self.praticiens[nom_praticien].get(&#39;Secteur_id&#39;)) == int(requete_secteur.text):
+                self.SelectionPraticiens.addItem(nom_praticien)
+
+        # requete pour obtenir les médicaments
+        requete = requests.get(serveur[&#39;protocole&#39;] + &#39;://&#39; + serveur[&#39;host&#39;] + &#39;:&#39; + serveur[&#39;port&#39;] + &#39;/GSB/medicament&#39;)
+        medicaments_json = json.loads(requete.text)
+        del requete
+
+        # creation d&#39;un dictionnaire pour lier les noms des médicaments avec leur nombre
+        for j in range(len(medicaments_json)):
+            self.medicaments[medicaments_json[j][&#34;Label&#34;]] = medicaments_json[j][&#34;Id&#34;]
+
+        # j&#39;ordonne les noms des médicaments par ordre alphabetique
+        self.medicaments_ordonnes = sorted(self.medicaments.keys(), key=lambda x: x.lower())
+        for nom_medicaments in self.medicaments_ordonnes:
+            self.SelectionMedicamentNom.addItem(nom_medicaments)
+
+        # mise a jour de la date à la date du jour
+        aujourdhui = date.today()
+        aujourdhui_formate = aujourdhui.strftime(&#34;%d/%m/%Y&#34;)
+        qdate_aujourdhui_formate = QDate.fromString(aujourdhui_formate, &#34;dd/MM/yyyy&#34;)
+        self.DateRapport.setDate(qdate_aujourdhui_formate)
+
+        self.BoutonAjouterMedicament.clicked.connect(self.ajouter_medicament)
+
+        # attribut bouton pour valider ou non le formulaire
+        self.BoutonFormulaire.accepted.connect(self.envoyer_rapport)
+        self.BoutonFormulaire.rejected.connect(self.fermer_fenetre)
+
+    # fonction pour détruire la page
+    def fermer_fenetre(self):
+        win.stackedWidget.removeWidget(self)
+        self.reject()
+
+    # fonction pour ajouter des medicaments a la liste
+    def ajouter_medicament(self):
+
+        # si il y a des éléments de sélectionnés
+        if self.SelectionMedicamentNom.currentText() != &#34;-Aucun-&#34; and self.SelectionMedicamentQuantite.text() != &#34;&#34;:
+
+            # je crée un dictionnaire contenant tous les médicaments choisis
+            liste_medicament_enregistre = {}
+            for i in range(0, self.TableauOffreMedicaments.rowCount()):
+                liste_medicament_enregistre[self.TableauOffreMedicaments.item(i, 0).text()] = i
+
+            # si le médicament n&#39;a pas déjà été entré, je l&#39;intègre
+            if self.SelectionMedicamentNom.currentText() not in liste_medicament_enregistre.keys():
+                self.TableauOffreMedicaments.insertRow(self.TableauOffreMedicaments.rowCount())
+                self.TableauOffreMedicaments.setItem(self.TableauOffreMedicaments.rowCount() - 1, 0,
+                                                     QTableWidgetItem(self.SelectionMedicamentNom.currentText()))
+                self.TableauOffreMedicaments.setItem(self.TableauOffreMedicaments.rowCount() - 1, 1,
+                                                     QTableWidgetItem(self.SelectionMedicamentQuantite.text()))
+
+            # sinon je modifie la valeur de la quantité
+            else:
+                self.TableauOffreMedicaments.item(
+                    liste_medicament_enregistre[self.SelectionMedicamentNom.currentText()], 1) \
+                    .setText(self.SelectionMedicamentQuantite.text())
+            del liste_medicament_enregistre
+        else:
+            print(&#34;il manque des informations pour pouvoir ajouter un échantillon&#34;)
+
+    # fonction qui va envoyer les informations validées du formulaire
+    def envoyer_rapport(self):
+
+        # je collecte l&#39;ensemble des médicaments
+        liste_offre_medicaments = {}
+        for i in range(self.TableauOffreMedicaments.rowCount()):
+            liste_offre_medicaments[
+                self.medicaments[self.TableauOffreMedicaments.item(i, 0).text()]] = self.TableauOffreMedicaments.item(i,1).text()
+
+        # je construis un dictionnaire pour l&#39;envoyer sous format Json
+        rapport_json = {&#34;Medecin&#34;: self.praticiens[self.SelectionPraticiens.currentText()],
+                        &#34;Date&#34;: self.DateRapport.text(),
+                        &#34;Motif&#34;: self.Motif.text(),
+                        &#34;Bilan&#34;: self.Bilan.toPlainText(),
+                        &#34;Medoc&#34;: liste_offre_medicaments}
+        requete = requests.post(serveur[&#39;protocole&#39;] + &#39;://&#39; + serveur[&#39;host&#39;] + &#39;:&#39; + serveur[&#39;port&#39;] + &#39;/GSB/CR/Insert&#39;,
+                                json=rapport_json,
+                                headers={&#39;Content-Type&#39;: &#39;application/json&#39;})
+        self.fermer_fenetre()
+
+
+class FenetreConsultation(QDialog):
+    def __init__(self):
+        super(FenetreConsultation, self).__init__()
+        loadUi(&#34;UI/fenetre_consultation_rapport.ui&#34;, self)
+
+        self.setWindowTitle(&#34;AppliVisiteur&#34;)
+
+        self.validerIdRapport.clicked.connect(self.valider_rapport)
+        self.retourConsultation.clicked.connect(self.fermer_fenetre)
+
+    def fermer_fenetre(self):
+        win.stackedWidget.removeWidget(self)
+        self.reject()
+
+    def valider_rapport(self):
+
+        # je fais une requete pour obtenir le rapport avec l&#39;ID précédement obtenu
+        requete = requests.get(serveur[&#39;protocole&#39;] + &#39;://&#39; + serveur[&#39;host&#39;] + &#39;:&#39; + serveur[&#39;port&#39;] + &#39;/GSB/CR/&#39; + str(self.idRapport.value()) + &#39;/&#39;)
+        rapport_json = json.loads(requete.text)
+
+        # j&#39;attribut les valeurs aux champs adéquats
+        self.SelectionPraticien.setText(rapport_json[&#39;Medecin&#39;])
+        self.DateRapport.setText(rapport_json[&#34;Date&#34;])
+        self.Motif.setText(rapport_json[&#34;Motif&#34;])
+        self.Bilan.setPlainText(rapport_json[&#34;Bilan&#34;])
+
+        # je remplis la liste des médicaments avec les données du JSON
+        for i in range(0, len(rapport_json[&#34;Medoc&#34;])):
+            self.TableauOffreMedicaments.insertRow(self.TableauOffreMedicaments.rowCount())
+            self.TableauOffreMedicaments.setItem(self.TableauOffreMedicaments.rowCount() - 1, 0,
+                                                 QTableWidgetItem(rapport_json[&#34;Medoc&#34;][i][&#34;Label&#34;]))
+            self.TableauOffreMedicaments.setItem(self.TableauOffreMedicaments.rowCount() - 1, 1,
+                                                 QTableWidgetItem(str(rapport_json[&#34;Medoc&#34;][i][&#34;Nombre&#34;])))
+
+
+app = QApplication(sys.argv)
+
+win = FenetreMaitresse()
+
+# je renome la fenetre
+win.setWindowTitle(&#34;AppliVisiteur&#34;)
+#win.showMaximized()
+
+
+win.show()
+
+if __name__ == &#39;__main__&#39;:
+    try:
+        sys.exit(app.exec_())
+
+    finally:
+        print(&#34;sortie&#34;)</code></pre>
+</details>
+</section>
+<section>
+</section>
+<section>
+</section>
+<section>
+</section>
+<section>
+<h2 class="section-title" id="header-classes">Classes</h2>
+<dl>
+<dt id="Applivisiteur.FenetreConnexion"><code class="flex name class">
+<span>class <span class="ident">FenetreConnexion</span></span>
+</code></dt>
+<dd>
+<div class="desc"><p>class qui creer une fenetre pour se connecter a l'application</p>
+<p>&hellip;</p>
+<h2 id="attributes">Attributes</h2>
+<dl>
+<dt><strong><code>champsMDP</code></strong> :&ensp;<code>obj</code></dt>
+<dd>a formatted string to print out what the animal says</dd>
+<dt><strong><code>name</code></strong> :&ensp;<code>str</code></dt>
+<dd>the name of the animal</dd>
+<dt><strong><code>sound</code></strong> :&ensp;<code>str</code></dt>
+<dd>the sound that the animal makes</dd>
+<dt><strong><code>num_legs</code></strong> :&ensp;<code>int</code></dt>
+<dd>the number of legs the animal has (default 4)</dd>
+</dl>
+<h2 id="methods">Methods</h2>
+<p>says(sound=None)
+Prints the animals name and what sound it makes</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">class FenetreConnexion(QDialog):
+    &#34;&#34;&#34;
+        class qui creer une fenetre pour se connecter a l&#39;application
+
+        ...
+
+        Attributes
+        ----------
+        champsMDP : obj
+            a formatted string to print out what the animal says
+        name : str
+            the name of the animal
+        sound : str
+            the sound that the animal makes
+        num_legs : int
+            the number of legs the animal has (default 4)
+
+        Methods
+        -------
+        says(sound=None)
+            Prints the animals name and what sound it makes
+        &#34;&#34;&#34;
+    def __init__(self):
+        super(FenetreConnexion, self).__init__()
+        loadUi(&#34;UI/fenetre_connexion.ui&#34;, self)
+
+        self.loginBouton.clicked.connect(self.connexion)
+        # self.loginBouton.clicked.connect(self.aller_vers_fenetre_principale)
+
+    def connexion(self):
+
+        global id_visiteur
+
+        # je construis un dictionnaire pour l&#39;envoyer sous format Json
+        login_json = {&#34;Login&#34;: self.champsLogin.text(),
+                        &#34;Password&#34;: self.champsMDP.text()}
+        requete = requests.get(
+            serveur[&#39;protocole&#39;] + &#39;://&#39; + serveur[&#39;host&#39;] + &#39;:&#39; + serveur[&#39;port&#39;] + &#39;/GSB/connexion&#39;,
+            json=login_json,
+            headers={&#39;Content-Type&#39;: &#39;application/json&#39;})
+
+        if requete.status_code == &#39;200&#39;:
+            infos_visiteur = json.loads(requete.text)
+            id_visiteur = infos_visiteur[&#39;Id&#39;]
+            self.aller_vers_fenetre_principale(infos_visiteur[&#39;Nom&#39;], infos_visiteur[&#39;Prenom&#39;])
+        else:
+            self.champsMDP.setText(&#39;&#39;)
+
+
+    # la méthode statique permet de prévenir la fonction d&#39;altérer la class
+    @staticmethod
+    def aller_vers_fenetre_principale(nom, prenom):
+        fenetre_principale = FenetrePrincipale(nom, prenom)
+        win.stackedWidget.addWidget(fenetre_principale)
+        win.stackedWidget.setCurrentWidget(fenetre_principale)</code></pre>
+</details>
+<h3>Ancestors</h3>
+<ul class="hlist">
+<li>PyQt5.QtWidgets.QDialog</li>
+<li>PyQt5.QtWidgets.QWidget</li>
+<li>PyQt5.QtCore.QObject</li>
+<li>sip.wrapper</li>
+<li>PyQt5.QtGui.QPaintDevice</li>
+<li>sip.simplewrapper</li>
+</ul>
+<h3>Static methods</h3>
+<dl>
+<dt id="Applivisiteur.FenetreConnexion.aller_vers_fenetre_principale"><code class="name flex">
+<span>def <span class="ident">aller_vers_fenetre_principale</span></span>(<span>nom, prenom)</span>
+</code></dt>
+<dd>
+<div class="desc"></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">@staticmethod
+def aller_vers_fenetre_principale(nom, prenom):
+    fenetre_principale = FenetrePrincipale(nom, prenom)
+    win.stackedWidget.addWidget(fenetre_principale)
+    win.stackedWidget.setCurrentWidget(fenetre_principale)</code></pre>
+</details>
+</dd>
+</dl>
+<h3>Methods</h3>
+<dl>
+<dt id="Applivisiteur.FenetreConnexion.connexion"><code class="name flex">
+<span>def <span class="ident">connexion</span></span>(<span>self)</span>
+</code></dt>
+<dd>
+<div class="desc"></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def connexion(self):
+
+    global id_visiteur
+
+    # je construis un dictionnaire pour l&#39;envoyer sous format Json
+    login_json = {&#34;Login&#34;: self.champsLogin.text(),
+                    &#34;Password&#34;: self.champsMDP.text()}
+    requete = requests.get(
+        serveur[&#39;protocole&#39;] + &#39;://&#39; + serveur[&#39;host&#39;] + &#39;:&#39; + serveur[&#39;port&#39;] + &#39;/GSB/connexion&#39;,
+        json=login_json,
+        headers={&#39;Content-Type&#39;: &#39;application/json&#39;})
+
+    if requete.status_code == &#39;200&#39;:
+        infos_visiteur = json.loads(requete.text)
+        id_visiteur = infos_visiteur[&#39;Id&#39;]
+        self.aller_vers_fenetre_principale(infos_visiteur[&#39;Nom&#39;], infos_visiteur[&#39;Prenom&#39;])
+    else:
+        self.champsMDP.setText(&#39;&#39;)</code></pre>
+</details>
+</dd>
+</dl>
+</dd>
+<dt id="Applivisiteur.FenetreConsultation"><code class="flex name class">
+<span>class <span class="ident">FenetreConsultation</span></span>
+</code></dt>
+<dd>
+<div class="desc"><p>QDialog(parent: QWidget = None, flags: Union[Qt.WindowFlags, Qt.WindowType] = Qt.WindowFlags())</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">class FenetreConsultation(QDialog):
+    def __init__(self):
+        super(FenetreConsultation, self).__init__()
+        loadUi(&#34;UI/fenetre_consultation_rapport.ui&#34;, self)
+
+        self.setWindowTitle(&#34;AppliVisiteur&#34;)
+
+        self.validerIdRapport.clicked.connect(self.valider_rapport)
+        self.retourConsultation.clicked.connect(self.fermer_fenetre)
+
+    def fermer_fenetre(self):
+        win.stackedWidget.removeWidget(self)
+        self.reject()
+
+    def valider_rapport(self):
+
+        # je fais une requete pour obtenir le rapport avec l&#39;ID précédement obtenu
+        requete = requests.get(serveur[&#39;protocole&#39;] + &#39;://&#39; + serveur[&#39;host&#39;] + &#39;:&#39; + serveur[&#39;port&#39;] + &#39;/GSB/CR/&#39; + str(self.idRapport.value()) + &#39;/&#39;)
+        rapport_json = json.loads(requete.text)
+
+        # j&#39;attribut les valeurs aux champs adéquats
+        self.SelectionPraticien.setText(rapport_json[&#39;Medecin&#39;])
+        self.DateRapport.setText(rapport_json[&#34;Date&#34;])
+        self.Motif.setText(rapport_json[&#34;Motif&#34;])
+        self.Bilan.setPlainText(rapport_json[&#34;Bilan&#34;])
+
+        # je remplis la liste des médicaments avec les données du JSON
+        for i in range(0, len(rapport_json[&#34;Medoc&#34;])):
+            self.TableauOffreMedicaments.insertRow(self.TableauOffreMedicaments.rowCount())
+            self.TableauOffreMedicaments.setItem(self.TableauOffreMedicaments.rowCount() - 1, 0,
+                                                 QTableWidgetItem(rapport_json[&#34;Medoc&#34;][i][&#34;Label&#34;]))
+            self.TableauOffreMedicaments.setItem(self.TableauOffreMedicaments.rowCount() - 1, 1,
+                                                 QTableWidgetItem(str(rapport_json[&#34;Medoc&#34;][i][&#34;Nombre&#34;])))</code></pre>
+</details>
+<h3>Ancestors</h3>
+<ul class="hlist">
+<li>PyQt5.QtWidgets.QDialog</li>
+<li>PyQt5.QtWidgets.QWidget</li>
+<li>PyQt5.QtCore.QObject</li>
+<li>sip.wrapper</li>
+<li>PyQt5.QtGui.QPaintDevice</li>
+<li>sip.simplewrapper</li>
+</ul>
+<h3>Methods</h3>
+<dl>
+<dt id="Applivisiteur.FenetreConsultation.fermer_fenetre"><code class="name flex">
+<span>def <span class="ident">fermer_fenetre</span></span>(<span>self)</span>
+</code></dt>
+<dd>
+<div class="desc"></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def fermer_fenetre(self):
+    win.stackedWidget.removeWidget(self)
+    self.reject()</code></pre>
+</details>
+</dd>
+<dt id="Applivisiteur.FenetreConsultation.valider_rapport"><code class="name flex">
+<span>def <span class="ident">valider_rapport</span></span>(<span>self)</span>
+</code></dt>
+<dd>
+<div class="desc"></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def valider_rapport(self):
+
+    # je fais une requete pour obtenir le rapport avec l&#39;ID précédement obtenu
+    requete = requests.get(serveur[&#39;protocole&#39;] + &#39;://&#39; + serveur[&#39;host&#39;] + &#39;:&#39; + serveur[&#39;port&#39;] + &#39;/GSB/CR/&#39; + str(self.idRapport.value()) + &#39;/&#39;)
+    rapport_json = json.loads(requete.text)
+
+    # j&#39;attribut les valeurs aux champs adéquats
+    self.SelectionPraticien.setText(rapport_json[&#39;Medecin&#39;])
+    self.DateRapport.setText(rapport_json[&#34;Date&#34;])
+    self.Motif.setText(rapport_json[&#34;Motif&#34;])
+    self.Bilan.setPlainText(rapport_json[&#34;Bilan&#34;])
+
+    # je remplis la liste des médicaments avec les données du JSON
+    for i in range(0, len(rapport_json[&#34;Medoc&#34;])):
+        self.TableauOffreMedicaments.insertRow(self.TableauOffreMedicaments.rowCount())
+        self.TableauOffreMedicaments.setItem(self.TableauOffreMedicaments.rowCount() - 1, 0,
+                                             QTableWidgetItem(rapport_json[&#34;Medoc&#34;][i][&#34;Label&#34;]))
+        self.TableauOffreMedicaments.setItem(self.TableauOffreMedicaments.rowCount() - 1, 1,
+                                             QTableWidgetItem(str(rapport_json[&#34;Medoc&#34;][i][&#34;Nombre&#34;])))</code></pre>
+</details>
+</dd>
+</dl>
+</dd>
+<dt id="Applivisiteur.FenetreInformation"><code class="flex name class">
+<span>class <span class="ident">FenetreInformation</span></span>
+</code></dt>
+<dd>
+<div class="desc"><p>class pour creer une fenetre qui affiche les informations des médecins</p>
+<p>&hellip;</p>
+<h2 id="attributes">Attributes</h2>
+<p>RobertBouton(afficher_information_praticien()) : obj
+un objet bouton permettant de changer de fenetre
+CelineBouton(afficher_information_praticien()) : obj
+un objet bouton permettant de changer de fenetre
+HugeBouton(afficher_information_praticien()) : obj
+un objet bouton permettant de changer de fenetre
+RetourInformationMedecin(afficher_information_praticien()) : obj
+un objet bouton permettant de fermer la fenetre</p>
+<h2 id="methods">Methods</h2>
+<p>fermer_fenetre(self)
+Ferme la fenetre la plus récente
+afficher_information_medecin(self, id)
+Affiche les informations des praticiens</p>
+<h2 id="parameters">Parameters</h2>
+<p>RobertBouton(afficher_information_praticien()) : obj
+un objet bouton permettant de changer de fenetre
+CelineBouton(afficher_information_praticien()) : obj
+un objet bouton permettant de changer de fenetre
+HugeBouton(afficher_information_praticien()) : obj
+un objet bouton permettant de changer de fenetre
+RetourInformationMedecin(self.fermer_fenetre()) : obj
+un objet bouton permettant de fermer la fenetre</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">class FenetreInformation(QDialog):
+    &#34;&#34;&#34;
+    class pour creer une fenetre qui affiche les informations des médecins
+
+    ...
+
+    Attributes
+    ----------
+    RobertBouton(afficher_information_praticien()) : obj
+        un objet bouton permettant de changer de fenetre
+    CelineBouton(afficher_information_praticien()) : obj
+        un objet bouton permettant de changer de fenetre
+    HugeBouton(afficher_information_praticien()) : obj
+        un objet bouton permettant de changer de fenetre
+    RetourInformationMedecin(afficher_information_praticien()) : obj
+        un objet bouton permettant de fermer la fenetre
+
+    Methods
+    -------
+    fermer_fenetre(self)
+        Ferme la fenetre la plus récente
+    afficher_information_medecin(self, id)
+        Affiche les informations des praticiens
+    &#34;&#34;&#34;
+    def __init__(self):
+        &#34;&#34;&#34;
+        Parameters
+        ----------
+        RobertBouton(afficher_information_praticien()) : obj
+            un objet bouton permettant de changer de fenetre
+        CelineBouton(afficher_information_praticien()) : obj
+            un objet bouton permettant de changer de fenetre
+        HugeBouton(afficher_information_praticien()) : obj
+            un objet bouton permettant de changer de fenetre
+        RetourInformationMedecin(self.fermer_fenetre()) : obj
+            un objet bouton permettant de fermer la fenetre
+        &#34;&#34;&#34;
+        super(FenetreInformation, self).__init__()
+        loadUi(&#34;UI/fenetre_information.ui&#34;, self)
+        self.RetourInformation.clicked.connect(self.fermer_fenetre)
+
+        self.SelectionInfo.addItem(&#39;-Praticiens-&#39;)
+        self.SelectionInfo.addItem(&#39;-Médicaments-&#39;)
+
+        self.sur_changement()
+        self.SelectionInfo.currentTextChanged.connect(self.sur_changement)
+        self.listWidgetInfo.itemClicked.connect(self.afficher_information)
+
+    def sur_changement(self):
+
+        self.listWidgetInfo.clear()
+
+        if self.SelectionInfo.currentText() == &#39;-Praticiens-&#39;:
+
+            self.infoPraticiens = {}
+
+            requete_info = requests.get(serveur[&#39;protocole&#39;] + &#39;://&#39; + serveur[&#39;host&#39;] + &#39;:&#39; + serveur[&#39;port&#39;] + &#39;/GSB/medecins&#39;)
+            if requete_info.status_code == 200:
+
+                medecins_json = json.loads(requete_info.text)
+
+                for i in range(len(medecins_json)):
+                    nom_total = str(medecins_json[i][&#39;Prenom&#39;] + &#39; &#39; + medecins_json[i][&#39;Nom&#39;])
+                    self.infoPraticiens[nom_total] = medecins_json[i]
+
+                # j&#39;ordonne les noms des praticiens par ordre alphabetique
+                infoPraticiens_ordonnes = sorted(self.infoPraticiens.keys(), key=lambda x: x.lower())
+
+                for nom_praticien in infoPraticiens_ordonnes:
+                    self.listWidgetInfo.addItem(nom_praticien)
+
+            else:
+                pass
+
+        if self.SelectionInfo.currentText() == &#39;-Médicaments-&#39;:
+
+            self.infoMedicament = {}
+
+            requete_info = requests.get(serveur[&#39;protocole&#39;] + &#39;://&#39; + serveur[&#39;host&#39;] + &#39;:&#39; + serveur[&#39;port&#39;] + &#39;/GSB/medicament&#39;)
+            medicaments_json = json.loads(requete_info.text)
+
+            for i in range(len(medicaments_json)) :
+                self.infoMedicament[str(medicaments_json[i][&#39;Label&#39;])] = medicaments_json[i]
+
+            # j&#39;ordonne les noms des praticiens par ordre alphabetique
+            self.infoMedicament_ordonnes = sorted(self.infoMedicament.keys(), key=lambda x: x.lower())
+
+            for nom_medicament in self.infoMedicament_ordonnes:
+                self.listWidgetInfo.addItem(nom_medicament)
+
+        return 0
+
+    # fonction pour détruire la page
+    def fermer_fenetre(self):
+        &#34;&#34;&#34;
+        Methods
+        -------
+        fermer_fenetre(self)
+            Ferme la fenetre la plus récente
+        &#34;&#34;&#34;
+        win.stackedWidget.removeWidget(self)
+        self.reject()
+
+    def afficher_information(self):
+        &#34;&#34;&#34;
+        Methods
+        -------
+        afficher_information_medecin(self, id)
+            Affiche les informations des praticiens
+        &#34;&#34;&#34;
+
+        if self.SelectionInfo.currentText() == &#39;-Praticiens-&#39;:
+            widget_info_medecin = loadUi(&#34;UI/widgets/widget_info_medecin.ui&#34;)
+            self.StackedWidgetInfo.addWidget(widget_info_medecin)
+            self.StackedWidgetInfo.setCurrentWidget(widget_info_medecin)
+
+            if self.listWidgetInfo.count() is not None:
+
+                widget_info_medecin.InfoPrenomPraticien.setText(
+                    str(self.infoPraticiens[self.listWidgetInfo.currentItem().text()][&#39;Prenom&#39;]))
+                widget_info_medecin.InfoNomPraticien.setText(
+                    str(self.infoPraticiens[self.listWidgetInfo.currentItem().text()][&#39;Nom&#39;]))
+                widget_info_medecin.InfoCvPraticien.setText(
+                    str(self.infoPraticiens[self.listWidgetInfo.currentItem().text()][&#39;Civilite&#39;]))
+                widget_info_medecin.InfoAdressePraticien.setText(
+                    str(self.infoPraticiens[self.listWidgetInfo.currentItem().text()][&#39;Adresse&#39;]))
+                widget_info_medecin.InfoCPPraticien.setText(
+                    str(self.infoPraticiens[self.listWidgetInfo.currentItem().text()][&#39;CP&#39;]))
+                widget_info_medecin.InfoVillePraticien.setText(
+                    str(self.infoPraticiens[self.listWidgetInfo.currentItem().text()][&#39;Ville&#39;]))
+                widget_info_medecin.InfoCNPraticien.setText(
+                    str(self.infoPraticiens[self.listWidgetInfo.currentItem().text()][&#39;CoefNotoriete&#39;]))
+                widget_info_medecin.InfoSecteurPraticien.setText(
+                    str(self.infoPraticiens[self.listWidgetInfo.currentItem().text()][&#39;Secteur_id&#39;]))
+
+        if self.SelectionInfo.currentText() == &#39;-Médicaments-&#39;:
+            widget_info_medicament = loadUi(&#34;UI/widgets/widget_info_medicament.ui&#34;)
+            self.StackedWidgetInfo.addWidget(widget_info_medicament)
+            self.StackedWidgetInfo.setCurrentWidget(widget_info_medicament)
+
+            if self.listWidgetInfo.count() is not None:
+
+                widget_info_medicament.InfoLabelPraticien.setText(
+                    str(self.infoMedicament[self.listWidgetInfo.currentItem().text()][&#39;Label&#39;]))
+                widget_info_medicament.InfoDatePraticien.setText(
+                    str(self.infoMedicament[self.listWidgetInfo.currentItem().text()][&#39;Date&#39;]))
+                widget_info_medicament.InfoCompPraticien.setText(
+                    str(self.infoMedicament[self.listWidgetInfo.currentItem().text()][&#39;Composition&#39;]))
+                widget_info_medicament.InfoEffetPraticien.setText(
+                    str(self.infoMedicament[self.listWidgetInfo.currentItem().text()][&#39;Effets&#39;]))
+                widget_info_medicament.InfoCIPraticien.setText(
+                    str(self.infoMedicament[self.listWidgetInfo.currentItem().text()][&#39;ContreIndic&#39;]))
+                widget_info_medicament.InfoPrixPraticien.setText(
+                    str(self.infoMedicament[self.listWidgetInfo.currentItem().text()][&#39;Prix&#39;]))
+                widget_info_medicament.InfoStockPraticien.setText(
+                    str(self.infoMedicament[self.listWidgetInfo.currentItem().text()][&#39;Stock&#39;]))</code></pre>
+</details>
+<h3>Ancestors</h3>
+<ul class="hlist">
+<li>PyQt5.QtWidgets.QDialog</li>
+<li>PyQt5.QtWidgets.QWidget</li>
+<li>PyQt5.QtCore.QObject</li>
+<li>sip.wrapper</li>
+<li>PyQt5.QtGui.QPaintDevice</li>
+<li>sip.simplewrapper</li>
+</ul>
+<h3>Methods</h3>
+<dl>
+<dt id="Applivisiteur.FenetreInformation.afficher_information"><code class="name flex">
+<span>def <span class="ident">afficher_information</span></span>(<span>self)</span>
+</code></dt>
+<dd>
+<div class="desc"><h2 id="methods">Methods</h2>
+<p>afficher_information_medecin(self, id)
+Affiche les informations des praticiens</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def afficher_information(self):
+    &#34;&#34;&#34;
+    Methods
+    -------
+    afficher_information_medecin(self, id)
+        Affiche les informations des praticiens
+    &#34;&#34;&#34;
+
+    if self.SelectionInfo.currentText() == &#39;-Praticiens-&#39;:
+        widget_info_medecin = loadUi(&#34;UI/widgets/widget_info_medecin.ui&#34;)
+        self.StackedWidgetInfo.addWidget(widget_info_medecin)
+        self.StackedWidgetInfo.setCurrentWidget(widget_info_medecin)
+
+        if self.listWidgetInfo.count() is not None:
+
+            widget_info_medecin.InfoPrenomPraticien.setText(
+                str(self.infoPraticiens[self.listWidgetInfo.currentItem().text()][&#39;Prenom&#39;]))
+            widget_info_medecin.InfoNomPraticien.setText(
+                str(self.infoPraticiens[self.listWidgetInfo.currentItem().text()][&#39;Nom&#39;]))
+            widget_info_medecin.InfoCvPraticien.setText(
+                str(self.infoPraticiens[self.listWidgetInfo.currentItem().text()][&#39;Civilite&#39;]))
+            widget_info_medecin.InfoAdressePraticien.setText(
+                str(self.infoPraticiens[self.listWidgetInfo.currentItem().text()][&#39;Adresse&#39;]))
+            widget_info_medecin.InfoCPPraticien.setText(
+                str(self.infoPraticiens[self.listWidgetInfo.currentItem().text()][&#39;CP&#39;]))
+            widget_info_medecin.InfoVillePraticien.setText(
+                str(self.infoPraticiens[self.listWidgetInfo.currentItem().text()][&#39;Ville&#39;]))
+            widget_info_medecin.InfoCNPraticien.setText(
+                str(self.infoPraticiens[self.listWidgetInfo.currentItem().text()][&#39;CoefNotoriete&#39;]))
+            widget_info_medecin.InfoSecteurPraticien.setText(
+                str(self.infoPraticiens[self.listWidgetInfo.currentItem().text()][&#39;Secteur_id&#39;]))
+
+    if self.SelectionInfo.currentText() == &#39;-Médicaments-&#39;:
+        widget_info_medicament = loadUi(&#34;UI/widgets/widget_info_medicament.ui&#34;)
+        self.StackedWidgetInfo.addWidget(widget_info_medicament)
+        self.StackedWidgetInfo.setCurrentWidget(widget_info_medicament)
+
+        if self.listWidgetInfo.count() is not None:
+
+            widget_info_medicament.InfoLabelPraticien.setText(
+                str(self.infoMedicament[self.listWidgetInfo.currentItem().text()][&#39;Label&#39;]))
+            widget_info_medicament.InfoDatePraticien.setText(
+                str(self.infoMedicament[self.listWidgetInfo.currentItem().text()][&#39;Date&#39;]))
+            widget_info_medicament.InfoCompPraticien.setText(
+                str(self.infoMedicament[self.listWidgetInfo.currentItem().text()][&#39;Composition&#39;]))
+            widget_info_medicament.InfoEffetPraticien.setText(
+                str(self.infoMedicament[self.listWidgetInfo.currentItem().text()][&#39;Effets&#39;]))
+            widget_info_medicament.InfoCIPraticien.setText(
+                str(self.infoMedicament[self.listWidgetInfo.currentItem().text()][&#39;ContreIndic&#39;]))
+            widget_info_medicament.InfoPrixPraticien.setText(
+                str(self.infoMedicament[self.listWidgetInfo.currentItem().text()][&#39;Prix&#39;]))
+            widget_info_medicament.InfoStockPraticien.setText(
+                str(self.infoMedicament[self.listWidgetInfo.currentItem().text()][&#39;Stock&#39;]))</code></pre>
+</details>
+</dd>
+<dt id="Applivisiteur.FenetreInformation.fermer_fenetre"><code class="name flex">
+<span>def <span class="ident">fermer_fenetre</span></span>(<span>self)</span>
+</code></dt>
+<dd>
+<div class="desc"><h2 id="methods">Methods</h2>
+<p>fermer_fenetre(self)
+Ferme la fenetre la plus récente</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def fermer_fenetre(self):
+    &#34;&#34;&#34;
+    Methods
+    -------
+    fermer_fenetre(self)
+        Ferme la fenetre la plus récente
+    &#34;&#34;&#34;
+    win.stackedWidget.removeWidget(self)
+    self.reject()</code></pre>
+</details>
+</dd>
+<dt id="Applivisiteur.FenetreInformation.sur_changement"><code class="name flex">
+<span>def <span class="ident">sur_changement</span></span>(<span>self)</span>
+</code></dt>
+<dd>
+<div class="desc"></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def sur_changement(self):
+
+    self.listWidgetInfo.clear()
+
+    if self.SelectionInfo.currentText() == &#39;-Praticiens-&#39;:
+
+        self.infoPraticiens = {}
+
+        requete_info = requests.get(serveur[&#39;protocole&#39;] + &#39;://&#39; + serveur[&#39;host&#39;] + &#39;:&#39; + serveur[&#39;port&#39;] + &#39;/GSB/medecins&#39;)
+        if requete_info.status_code == 200:
+
+            medecins_json = json.loads(requete_info.text)
+
+            for i in range(len(medecins_json)):
+                nom_total = str(medecins_json[i][&#39;Prenom&#39;] + &#39; &#39; + medecins_json[i][&#39;Nom&#39;])
+                self.infoPraticiens[nom_total] = medecins_json[i]
+
+            # j&#39;ordonne les noms des praticiens par ordre alphabetique
+            infoPraticiens_ordonnes = sorted(self.infoPraticiens.keys(), key=lambda x: x.lower())
+
+            for nom_praticien in infoPraticiens_ordonnes:
+                self.listWidgetInfo.addItem(nom_praticien)
+
+        else:
+            pass
+
+    if self.SelectionInfo.currentText() == &#39;-Médicaments-&#39;:
+
+        self.infoMedicament = {}
+
+        requete_info = requests.get(serveur[&#39;protocole&#39;] + &#39;://&#39; + serveur[&#39;host&#39;] + &#39;:&#39; + serveur[&#39;port&#39;] + &#39;/GSB/medicament&#39;)
+        medicaments_json = json.loads(requete_info.text)
+
+        for i in range(len(medicaments_json)) :
+            self.infoMedicament[str(medicaments_json[i][&#39;Label&#39;])] = medicaments_json[i]
+
+        # j&#39;ordonne les noms des praticiens par ordre alphabetique
+        self.infoMedicament_ordonnes = sorted(self.infoMedicament.keys(), key=lambda x: x.lower())
+
+        for nom_medicament in self.infoMedicament_ordonnes:
+            self.listWidgetInfo.addItem(nom_medicament)
+
+    return 0</code></pre>
+</details>
+</dd>
+</dl>
+</dd>
+<dt id="Applivisiteur.FenetreMaitresse"><code class="flex name class">
+<span>class <span class="ident">FenetreMaitresse</span></span>
+</code></dt>
+<dd>
+<div class="desc"><p>class utilisee pour contenir les autres objets fenetre</p>
+<p>&hellip;</p>
+<h2 id="attributes">Attributes</h2>
+<dl>
+<dt><strong><code>stackedWidget</code></strong> :&ensp;<code>obj</code></dt>
+<dd>un objet enfant permettant de contenir des objets (ici des fenetres)</dd>
+</dl>
+<h2 id="parameters">Parameters</h2>
+<dl>
+<dt><strong><code>stackedWidget</code></strong> :&ensp;<code>obj</code></dt>
+<dd>un objet permettant de contenir des objets (ici des fenetres)</dd>
+</dl></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">class FenetreMaitresse(QMainWindow):
+    &#34;&#34;&#34;
+    class utilisee pour contenir les autres objets fenetre
+
+    ...
+
+    Attributes
+    ----------
+    stackedWidget : obj
+        un objet enfant permettant de contenir des objets (ici des fenetres)
+
+    &#34;&#34;&#34;
+    def __init__(self):
+        &#34;&#34;&#34;
+        Parameters
+        ----------
+        stackedWidget : obj
+            un objet permettant de contenir des objets (ici des fenetres)
+        &#34;&#34;&#34;
+        super(FenetreMaitresse, self).__init__()
+        loadUi(&#34;UI/fenetre_maitresse.ui&#34;, self)
+        fenetre_connexion = FenetreConnexion()
+        # fenetre_connexion = FenetrePrincipale()
+        self.stackedWidget.addWidget(fenetre_connexion)
+        self.stackedWidget.setCurrentWidget(fenetre_connexion)</code></pre>
+</details>
+<h3>Ancestors</h3>
+<ul class="hlist">
+<li>PyQt5.QtWidgets.QMainWindow</li>
+<li>PyQt5.QtWidgets.QWidget</li>
+<li>PyQt5.QtCore.QObject</li>
+<li>sip.wrapper</li>
+<li>PyQt5.QtGui.QPaintDevice</li>
+<li>sip.simplewrapper</li>
+</ul>
+</dd>
+<dt id="Applivisiteur.FenetrePrincipale"><code class="flex name class">
+<span>class <span class="ident">FenetrePrincipale</span></span>
+<span>(</span><span>nom, prenom)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>QDialog(parent: QWidget = None, flags: Union[Qt.WindowFlags, Qt.WindowType] = Qt.WindowFlags())</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">class FenetrePrincipale(QDialog):
+    global id_visiteur
+
+    def __init__(self, nom, prenom):
+        super(FenetrePrincipale, self).__init__()
+        loadUi(&#34;UI/fenetre_principale.ui&#34;, self)
+        self.nom = nom
+        self.prenom = prenom
+
+        self.nomVisiteur.setText(self.nom + &#39; - &#39; + self.prenom)
+        self.SaisieBouton.clicked.connect(self.aller_vers_fenetresaisie)
+        self.ConsultationBouton.clicked.connect(self.aller_vers_fenetre_consultation)
+        self.DeconnexionBouton.clicked.connect(self.aller_vers_fenetre_connexion)
+        self.InformationsBouton.clicked.connect(self.aller_vers_fenetre_information)
+
+    @staticmethod
+    def aller_vers_fenetresaisie():
+        fenetre_saisie = FenetreSaisie()
+        win.stackedWidget.addWidget(fenetre_saisie)
+        win.stackedWidget.setCurrentWidget(fenetre_saisie)
+
+    @staticmethod
+    def aller_vers_fenetre_connexion():
+        fenetre_connexion = FenetreConnexion()
+        win.stackedWidget.addWidget(fenetre_connexion)
+        win.stackedWidget.setCurrentWidget(fenetre_connexion)
+
+    @staticmethod
+    def aller_vers_fenetre_consultation():
+        fenetre_consultation = FenetreConsultation()
+        win.stackedWidget.addWidget(fenetre_consultation)
+        win.stackedWidget.setCurrentWidget(fenetre_consultation)
+
+    @staticmethod
+    def aller_vers_fenetre_information():
+        fenetre_information = FenetreInformation()
+        win.stackedWidget.addWidget(fenetre_information)
+        win.stackedWidget.setCurrentWidget(fenetre_information)</code></pre>
+</details>
+<h3>Ancestors</h3>
+<ul class="hlist">
+<li>PyQt5.QtWidgets.QDialog</li>
+<li>PyQt5.QtWidgets.QWidget</li>
+<li>PyQt5.QtCore.QObject</li>
+<li>sip.wrapper</li>
+<li>PyQt5.QtGui.QPaintDevice</li>
+<li>sip.simplewrapper</li>
+</ul>
+<h3>Static methods</h3>
+<dl>
+<dt id="Applivisiteur.FenetrePrincipale.aller_vers_fenetre_connexion"><code class="name flex">
+<span>def <span class="ident">aller_vers_fenetre_connexion</span></span>(<span>)</span>
+</code></dt>
+<dd>
+<div class="desc"></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">@staticmethod
+def aller_vers_fenetre_connexion():
+    fenetre_connexion = FenetreConnexion()
+    win.stackedWidget.addWidget(fenetre_connexion)
+    win.stackedWidget.setCurrentWidget(fenetre_connexion)</code></pre>
+</details>
+</dd>
+<dt id="Applivisiteur.FenetrePrincipale.aller_vers_fenetre_consultation"><code class="name flex">
+<span>def <span class="ident">aller_vers_fenetre_consultation</span></span>(<span>)</span>
+</code></dt>
+<dd>
+<div class="desc"></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">@staticmethod
+def aller_vers_fenetre_consultation():
+    fenetre_consultation = FenetreConsultation()
+    win.stackedWidget.addWidget(fenetre_consultation)
+    win.stackedWidget.setCurrentWidget(fenetre_consultation)</code></pre>
+</details>
+</dd>
+<dt id="Applivisiteur.FenetrePrincipale.aller_vers_fenetre_information"><code class="name flex">
+<span>def <span class="ident">aller_vers_fenetre_information</span></span>(<span>)</span>
+</code></dt>
+<dd>
+<div class="desc"></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">@staticmethod
+def aller_vers_fenetre_information():
+    fenetre_information = FenetreInformation()
+    win.stackedWidget.addWidget(fenetre_information)
+    win.stackedWidget.setCurrentWidget(fenetre_information)</code></pre>
+</details>
+</dd>
+<dt id="Applivisiteur.FenetrePrincipale.aller_vers_fenetresaisie"><code class="name flex">
+<span>def <span class="ident">aller_vers_fenetresaisie</span></span>(<span>)</span>
+</code></dt>
+<dd>
+<div class="desc"></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">@staticmethod
+def aller_vers_fenetresaisie():
+    fenetre_saisie = FenetreSaisie()
+    win.stackedWidget.addWidget(fenetre_saisie)
+    win.stackedWidget.setCurrentWidget(fenetre_saisie)</code></pre>
+</details>
+</dd>
+</dl>
+</dd>
+<dt id="Applivisiteur.FenetreSaisie"><code class="flex name class">
+<span>class <span class="ident">FenetreSaisie</span></span>
+</code></dt>
+<dd>
+<div class="desc"><p>QDialog(parent: QWidget = None, flags: Union[Qt.WindowFlags, Qt.WindowType] = Qt.WindowFlags())</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">class FenetreSaisie(QDialog):
+    global id_visiteur
+    def __init__(self):
+        super(FenetreSaisie, self).__init__()
+        loadUi(&#34;UI/fenetre_saisie_rapport_layouted.ui&#34;, self)
+
+        # dictionnaire des praticiens et des médicaments
+        self.praticiens = {}
+        self.medicaments = {}
+
+        # requete pour obtenir les medecins
+        requete = requests.get(serveur[&#39;protocole&#39;] + &#39;://&#39; + serveur[&#39;host&#39;] + &#39;:&#39; + serveur[&#39;port&#39;] + &#39;/GSB/medecin&#39;)
+        medecins_json = json.loads(requete.text)
+        del requete
+
+        # creation d&#39;un dictionnaire pour lier les noms des praticiens avec leur id
+        for i in range(len(medecins_json)):
+            nom_total = str(medecins_json[i][&#39;Prenom&#39;] + &#39; &#39; + medecins_json[i][&#39;Nom&#39;])
+            self.praticiens[nom_total] = {&#34;Id&#34;: medecins_json[i][&#39;Id&#39;], &#34;Secteur_id&#34;: medecins_json[i][&#39;Secteur_id&#39;]}
+
+        # j&#39;ordonne les noms des praticiens par ordre alphabetique
+        self.praticiens_ordonnes = sorted(self.praticiens.keys(), key=lambda x: x.lower())
+
+        requete_secteur = requests.get(serveur[&#39;protocole&#39;] + &#39;://&#39; + serveur[&#39;host&#39;] + &#39;:&#39; + serveur[&#39;port&#39;] + &#39;/GSB/visiteur/secteur_id/&#39;+str(id_visiteur))
+
+        # j&#39;ajoute les praticiens ordonnés en fonction du secteur du visiteur
+        for nom_praticien in self.praticiens_ordonnes:
+            if int(self.praticiens[nom_praticien].get(&#39;Secteur_id&#39;)) == int(requete_secteur.text):
+                self.SelectionPraticiens.addItem(nom_praticien)
+
+        # requete pour obtenir les médicaments
+        requete = requests.get(serveur[&#39;protocole&#39;] + &#39;://&#39; + serveur[&#39;host&#39;] + &#39;:&#39; + serveur[&#39;port&#39;] + &#39;/GSB/medicament&#39;)
+        medicaments_json = json.loads(requete.text)
+        del requete
+
+        # creation d&#39;un dictionnaire pour lier les noms des médicaments avec leur nombre
+        for j in range(len(medicaments_json)):
+            self.medicaments[medicaments_json[j][&#34;Label&#34;]] = medicaments_json[j][&#34;Id&#34;]
+
+        # j&#39;ordonne les noms des médicaments par ordre alphabetique
+        self.medicaments_ordonnes = sorted(self.medicaments.keys(), key=lambda x: x.lower())
+        for nom_medicaments in self.medicaments_ordonnes:
+            self.SelectionMedicamentNom.addItem(nom_medicaments)
+
+        # mise a jour de la date à la date du jour
+        aujourdhui = date.today()
+        aujourdhui_formate = aujourdhui.strftime(&#34;%d/%m/%Y&#34;)
+        qdate_aujourdhui_formate = QDate.fromString(aujourdhui_formate, &#34;dd/MM/yyyy&#34;)
+        self.DateRapport.setDate(qdate_aujourdhui_formate)
+
+        self.BoutonAjouterMedicament.clicked.connect(self.ajouter_medicament)
+
+        # attribut bouton pour valider ou non le formulaire
+        self.BoutonFormulaire.accepted.connect(self.envoyer_rapport)
+        self.BoutonFormulaire.rejected.connect(self.fermer_fenetre)
+
+    # fonction pour détruire la page
+    def fermer_fenetre(self):
+        win.stackedWidget.removeWidget(self)
+        self.reject()
+
+    # fonction pour ajouter des medicaments a la liste
+    def ajouter_medicament(self):
+
+        # si il y a des éléments de sélectionnés
+        if self.SelectionMedicamentNom.currentText() != &#34;-Aucun-&#34; and self.SelectionMedicamentQuantite.text() != &#34;&#34;:
+
+            # je crée un dictionnaire contenant tous les médicaments choisis
+            liste_medicament_enregistre = {}
+            for i in range(0, self.TableauOffreMedicaments.rowCount()):
+                liste_medicament_enregistre[self.TableauOffreMedicaments.item(i, 0).text()] = i
+
+            # si le médicament n&#39;a pas déjà été entré, je l&#39;intègre
+            if self.SelectionMedicamentNom.currentText() not in liste_medicament_enregistre.keys():
+                self.TableauOffreMedicaments.insertRow(self.TableauOffreMedicaments.rowCount())
+                self.TableauOffreMedicaments.setItem(self.TableauOffreMedicaments.rowCount() - 1, 0,
+                                                     QTableWidgetItem(self.SelectionMedicamentNom.currentText()))
+                self.TableauOffreMedicaments.setItem(self.TableauOffreMedicaments.rowCount() - 1, 1,
+                                                     QTableWidgetItem(self.SelectionMedicamentQuantite.text()))
+
+            # sinon je modifie la valeur de la quantité
+            else:
+                self.TableauOffreMedicaments.item(
+                    liste_medicament_enregistre[self.SelectionMedicamentNom.currentText()], 1) \
+                    .setText(self.SelectionMedicamentQuantite.text())
+            del liste_medicament_enregistre
+        else:
+            print(&#34;il manque des informations pour pouvoir ajouter un échantillon&#34;)
+
+    # fonction qui va envoyer les informations validées du formulaire
+    def envoyer_rapport(self):
+
+        # je collecte l&#39;ensemble des médicaments
+        liste_offre_medicaments = {}
+        for i in range(self.TableauOffreMedicaments.rowCount()):
+            liste_offre_medicaments[
+                self.medicaments[self.TableauOffreMedicaments.item(i, 0).text()]] = self.TableauOffreMedicaments.item(i,1).text()
+
+        # je construis un dictionnaire pour l&#39;envoyer sous format Json
+        rapport_json = {&#34;Medecin&#34;: self.praticiens[self.SelectionPraticiens.currentText()],
+                        &#34;Date&#34;: self.DateRapport.text(),
+                        &#34;Motif&#34;: self.Motif.text(),
+                        &#34;Bilan&#34;: self.Bilan.toPlainText(),
+                        &#34;Medoc&#34;: liste_offre_medicaments}
+        requete = requests.post(serveur[&#39;protocole&#39;] + &#39;://&#39; + serveur[&#39;host&#39;] + &#39;:&#39; + serveur[&#39;port&#39;] + &#39;/GSB/CR/Insert&#39;,
+                                json=rapport_json,
+                                headers={&#39;Content-Type&#39;: &#39;application/json&#39;})
+        self.fermer_fenetre()</code></pre>
+</details>
+<h3>Ancestors</h3>
+<ul class="hlist">
+<li>PyQt5.QtWidgets.QDialog</li>
+<li>PyQt5.QtWidgets.QWidget</li>
+<li>PyQt5.QtCore.QObject</li>
+<li>sip.wrapper</li>
+<li>PyQt5.QtGui.QPaintDevice</li>
+<li>sip.simplewrapper</li>
+</ul>
+<h3>Methods</h3>
+<dl>
+<dt id="Applivisiteur.FenetreSaisie.ajouter_medicament"><code class="name flex">
+<span>def <span class="ident">ajouter_medicament</span></span>(<span>self)</span>
+</code></dt>
+<dd>
+<div class="desc"></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def ajouter_medicament(self):
+
+    # si il y a des éléments de sélectionnés
+    if self.SelectionMedicamentNom.currentText() != &#34;-Aucun-&#34; and self.SelectionMedicamentQuantite.text() != &#34;&#34;:
+
+        # je crée un dictionnaire contenant tous les médicaments choisis
+        liste_medicament_enregistre = {}
+        for i in range(0, self.TableauOffreMedicaments.rowCount()):
+            liste_medicament_enregistre[self.TableauOffreMedicaments.item(i, 0).text()] = i
+
+        # si le médicament n&#39;a pas déjà été entré, je l&#39;intègre
+        if self.SelectionMedicamentNom.currentText() not in liste_medicament_enregistre.keys():
+            self.TableauOffreMedicaments.insertRow(self.TableauOffreMedicaments.rowCount())
+            self.TableauOffreMedicaments.setItem(self.TableauOffreMedicaments.rowCount() - 1, 0,
+                                                 QTableWidgetItem(self.SelectionMedicamentNom.currentText()))
+            self.TableauOffreMedicaments.setItem(self.TableauOffreMedicaments.rowCount() - 1, 1,
+                                                 QTableWidgetItem(self.SelectionMedicamentQuantite.text()))
+
+        # sinon je modifie la valeur de la quantité
+        else:
+            self.TableauOffreMedicaments.item(
+                liste_medicament_enregistre[self.SelectionMedicamentNom.currentText()], 1) \
+                .setText(self.SelectionMedicamentQuantite.text())
+        del liste_medicament_enregistre
+    else:
+        print(&#34;il manque des informations pour pouvoir ajouter un échantillon&#34;)</code></pre>
+</details>
+</dd>
+<dt id="Applivisiteur.FenetreSaisie.envoyer_rapport"><code class="name flex">
+<span>def <span class="ident">envoyer_rapport</span></span>(<span>self)</span>
+</code></dt>
+<dd>
+<div class="desc"></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def envoyer_rapport(self):
+
+    # je collecte l&#39;ensemble des médicaments
+    liste_offre_medicaments = {}
+    for i in range(self.TableauOffreMedicaments.rowCount()):
+        liste_offre_medicaments[
+            self.medicaments[self.TableauOffreMedicaments.item(i, 0).text()]] = self.TableauOffreMedicaments.item(i,1).text()
+
+    # je construis un dictionnaire pour l&#39;envoyer sous format Json
+    rapport_json = {&#34;Medecin&#34;: self.praticiens[self.SelectionPraticiens.currentText()],
+                    &#34;Date&#34;: self.DateRapport.text(),
+                    &#34;Motif&#34;: self.Motif.text(),
+                    &#34;Bilan&#34;: self.Bilan.toPlainText(),
+                    &#34;Medoc&#34;: liste_offre_medicaments}
+    requete = requests.post(serveur[&#39;protocole&#39;] + &#39;://&#39; + serveur[&#39;host&#39;] + &#39;:&#39; + serveur[&#39;port&#39;] + &#39;/GSB/CR/Insert&#39;,
+                            json=rapport_json,
+                            headers={&#39;Content-Type&#39;: &#39;application/json&#39;})
+    self.fermer_fenetre()</code></pre>
+</details>
+</dd>
+<dt id="Applivisiteur.FenetreSaisie.fermer_fenetre"><code class="name flex">
+<span>def <span class="ident">fermer_fenetre</span></span>(<span>self)</span>
+</code></dt>
+<dd>
+<div class="desc"></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def fermer_fenetre(self):
+    win.stackedWidget.removeWidget(self)
+    self.reject()</code></pre>
+</details>
+</dd>
+</dl>
+</dd>
+</dl>
+</section>
+</article>
+<nav id="sidebar">
+<h1>Index</h1>
+<div class="toc">
+<ul></ul>
+</div>
+<ul id="index">
+<li><h3><a href="#header-classes">Classes</a></h3>
+<ul>
+<li>
+<h4><code><a title="Applivisiteur.FenetreConnexion" href="#Applivisiteur.FenetreConnexion">FenetreConnexion</a></code></h4>
+<ul class="">
+<li><code><a title="Applivisiteur.FenetreConnexion.aller_vers_fenetre_principale" href="#Applivisiteur.FenetreConnexion.aller_vers_fenetre_principale">aller_vers_fenetre_principale</a></code></li>
+<li><code><a title="Applivisiteur.FenetreConnexion.connexion" href="#Applivisiteur.FenetreConnexion.connexion">connexion</a></code></li>
+</ul>
+</li>
+<li>
+<h4><code><a title="Applivisiteur.FenetreConsultation" href="#Applivisiteur.FenetreConsultation">FenetreConsultation</a></code></h4>
+<ul class="">
+<li><code><a title="Applivisiteur.FenetreConsultation.fermer_fenetre" href="#Applivisiteur.FenetreConsultation.fermer_fenetre">fermer_fenetre</a></code></li>
+<li><code><a title="Applivisiteur.FenetreConsultation.valider_rapport" href="#Applivisiteur.FenetreConsultation.valider_rapport">valider_rapport</a></code></li>
+</ul>
+</li>
+<li>
+<h4><code><a title="Applivisiteur.FenetreInformation" href="#Applivisiteur.FenetreInformation">FenetreInformation</a></code></h4>
+<ul class="">
+<li><code><a title="Applivisiteur.FenetreInformation.afficher_information" href="#Applivisiteur.FenetreInformation.afficher_information">afficher_information</a></code></li>
+<li><code><a title="Applivisiteur.FenetreInformation.fermer_fenetre" href="#Applivisiteur.FenetreInformation.fermer_fenetre">fermer_fenetre</a></code></li>
+<li><code><a title="Applivisiteur.FenetreInformation.sur_changement" href="#Applivisiteur.FenetreInformation.sur_changement">sur_changement</a></code></li>
+</ul>
+</li>
+<li>
+<h4><code><a title="Applivisiteur.FenetreMaitresse" href="#Applivisiteur.FenetreMaitresse">FenetreMaitresse</a></code></h4>
+</li>
+<li>
+<h4><code><a title="Applivisiteur.FenetrePrincipale" href="#Applivisiteur.FenetrePrincipale">FenetrePrincipale</a></code></h4>
+<ul class="">
+<li><code><a title="Applivisiteur.FenetrePrincipale.aller_vers_fenetre_connexion" href="#Applivisiteur.FenetrePrincipale.aller_vers_fenetre_connexion">aller_vers_fenetre_connexion</a></code></li>
+<li><code><a title="Applivisiteur.FenetrePrincipale.aller_vers_fenetre_consultation" href="#Applivisiteur.FenetrePrincipale.aller_vers_fenetre_consultation">aller_vers_fenetre_consultation</a></code></li>
+<li><code><a title="Applivisiteur.FenetrePrincipale.aller_vers_fenetre_information" href="#Applivisiteur.FenetrePrincipale.aller_vers_fenetre_information">aller_vers_fenetre_information</a></code></li>
+<li><code><a title="Applivisiteur.FenetrePrincipale.aller_vers_fenetresaisie" href="#Applivisiteur.FenetrePrincipale.aller_vers_fenetresaisie">aller_vers_fenetresaisie</a></code></li>
+</ul>
+</li>
+<li>
+<h4><code><a title="Applivisiteur.FenetreSaisie" href="#Applivisiteur.FenetreSaisie">FenetreSaisie</a></code></h4>
+<ul class="">
+<li><code><a title="Applivisiteur.FenetreSaisie.ajouter_medicament" href="#Applivisiteur.FenetreSaisie.ajouter_medicament">ajouter_medicament</a></code></li>
+<li><code><a title="Applivisiteur.FenetreSaisie.envoyer_rapport" href="#Applivisiteur.FenetreSaisie.envoyer_rapport">envoyer_rapport</a></code></li>
+<li><code><a title="Applivisiteur.FenetreSaisie.fermer_fenetre" href="#Applivisiteur.FenetreSaisie.fermer_fenetre">fermer_fenetre</a></code></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</nav>
+</main>
+<footer id="footer">
+<p>Generated by <a href="https://pdoc3.github.io/pdoc" title="pdoc: Python API documentation generator"><cite>pdoc</cite> 0.10.0</a>.</p>
+</footer>
+</body>
+</html>
