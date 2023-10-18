@@ -1,0 +1,4 @@
+__pycache__/
+.idea/
+GUI/rapport.py.disabled
+api/log/api.log

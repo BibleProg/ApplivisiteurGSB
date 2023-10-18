@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Applivisiteur</string>
+  </property>
+  <property name="windowIcon">
+   <iconset theme="GSB" resource="logoqrc.qrc">
+    <normaloff>:/newPrefix/image/logo.jpg</normaloff>:/newPrefix/image/logo.jpg</iconset>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QStackedWidget" name="stackedWidget">
+      <property name="frameShape">
+       <enum>QFrame::NoFrame</enum>
+      </property>
+      <widget class="QWidget" name="page_3"/>
+      <widget class="QWidget" name="page_4"/>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actiongrgr">
+   <property name="text">
+    <string>grgr</string>
+   </property>
+  </action>
+  <action name="actiontrhtr">
+   <property name="text">
+    <string>trhtr</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="logoqrc.qrc"/>
+ </resources>
+ <connections/>
+</ui>
