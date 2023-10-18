@@ -1,0 +1,245 @@
+29/03/2022 14:53:40 None                     /GSB/medicaments?    127.0.0.1  A tenté d'acceder à une ressource sans être connecté 
+04/04/2022 16:53:37 axel                     /GSB/connexion?      127.0.0.1 UTILISATEUR CONNECTE
+05/04/2022 15:17:41 None                     /GSB/CR/visiteur?    127.0.0.1  A tenté d'acceder à une ressource sans être connecté
+05/04/2022 15:17:57 None                     /GSB/CR/visiteur?    127.0.0.1  A tenté d'acceder à une ressource sans être connecté
+05/04/2022 15:18:29 axel                     /GSB/connexion?      127.0.0.1 UTILISATEUR CONNECTE
+05/04/2022 15:18:54 axel                     /GSB/connexion?      127.0.0.1 UTILISATEUR CONNECTE
+05/04/2022 15:19:10 axel                     /GSB/CR/visiteur?    127.0.0.1 l'utilisateur à accedé à une ressources
+05/04/2022 15:26:28 None                     /GSB/connexion?      127.0.0.1 Tentative de connexion avec :axel OR 1=1
+05/04/2022 15:27:07 None                     /GSB/connexion?      127.0.0.1 Tentative de connexion avec :axel OR 1=1
+05/04/2022 15:27:09 None                     /GSB/connexion?      127.0.0.1 Tentative de connexion avec :axel OR 1=1
+05/04/2022 15:29:28 axel                     /GSB/connexion?      127.0.0.1 UTILISATEUR CONNECTE
+05/04/2022 15:31:23 axel                     /GSB/CR/visiteur?    127.0.0.1 l'utilisateur à accedé à une ressources
+05/04/2022 15:35:14 axel                     /GSB/connexion?      127.0.0.1 UTILISATEUR CONNECTE
+05/04/2022 15:35:27 axel                     /GSB/CR/visiteur?    127.0.0.1 l'utilisateur à accedé à une ressources
+05/04/2022 15:35:42 axel                     /GSB/CR/visiteur?    127.0.0.1 l'utilisateur à accedé à une ressources
+05/04/2022 15:35:49 axel                     /GSB/CR/visiteur?    127.0.0.1 l'utilisateur à accedé à une ressources
+05/04/2022 15:37:42 axel                     /GSB/CR/visiteur?    127.0.0.1 l'utilisateur à accedé à une ressources
+05/04/2022 15:38:48 axel                     /GSB/CR/visiteur?    127.0.0.1 l'utilisateur à accedé à une ressources
+07/04/2022 03:02:46 axel                     /GSB/connexion?      127.0.0.1 UTILISATEUR CONNECTE
+07/04/2022 03:03:00 axel                     /GSB/connexion?      127.0.0.1 UTILISATEUR CONNECTE
+07/04/2022 03:08:58 axel                     /GSB/connexion?      127.0.0.1 UTILISATEUR CONNECTE
+07/04/2022 03:09:08 axel                     /GSB/connexion?      127.0.0.1 UTILISATEUR CONNECTE
+07/04/2022 03:12:55 axel                     /GSB/connexion?      127.0.0.1 UTILISATEUR CONNECTE
+07/04/2022 03:13:04 axel                     /GSB/connexion?      127.0.0.1 UTILISATEUR CONNECTE
+07/04/2022 03:15:34 axel                     /GSB/connexion?      127.0.0.1 UTILISATEUR CONNECTE
+07/04/2022 03:17:08 axel                     /GSB/connexion?      127.0.0.1 UTILISATEUR CONNECTE
+07/04/2022 03:49:19 axel                     /GSB/connexion?      127.0.0.1 UTILISATEUR CONNECTE
+07/04/2022 03:49:49 axel                     /GSB/connexion?      127.0.0.1 UTILISATEUR CONNECTE
+07/04/2022 03:52:34 axel                     /GSB/connexion?      127.0.0.1 UTILISATEUR CONNECTE
+07/04/2022 03:55:03 axel                     /GSB/connexion?      127.0.0.1 UTILISATEUR CONNECTE
+07/04/2022 03:55:05 axel                     /GSB/medecins?       127.0.0.1 l'utilisateur à accedé à une ressources
+07/04/2022 04:01:58 axel                     /GSB/connexion?      127.0.0.1 UTILISATEUR CONNECTE
+07/04/2022 04:03:34 axel                     /GSB/connexion?      127.0.0.1 UTILISATEUR CONNECTE
+07/04/2022 04:03:35 axel                     /GSB/medecins?       127.0.0.1 l'utilisateur à accedé à une ressources
+07/04/2022 04:03:35 axel                     /GSB/medicaments?    127.0.0.1 l'utilisateur à accedé à une ressources
+07/04/2022 04:04:37 axel                     /GSB/connexion?      127.0.0.1 UTILISATEUR CONNECTE
+07/04/2022 04:04:39 axel                     /GSB/medecins?       127.0.0.1 l'utilisateur à accedé à une ressources
+07/04/2022 04:04:39 axel                     /GSB/medicaments?    127.0.0.1 l'utilisateur à accedé à une ressources
+07/04/2022 04:06:23 axel                     /GSB/connexion?      127.0.0.1 UTILISATEUR CONNECTE
+07/04/2022 04:06:27 axel                     /GSB/medecins?       127.0.0.1 l'utilisateur à accedé à une ressources
+07/04/2022 04:06:27 axel                     /GSB/medicaments?    127.0.0.1 l'utilisateur à accedé à une ressources
+07/04/2022 04:07:59 axel                     /GSB/CR/Insert?      127.0.0.1 l'utilisateur à accedé à une ressources
+07/04/2022 04:42:12 None                     /GSB/connexion?      127.0.0.1 Tentative de connexion avec : collet
+07/04/2022 04:42:17 None                     /GSB/connexion?      127.0.0.1 Tentative de connexion avec : Collet
+07/04/2022 04:43:02 Collet                   /GSB/connexion?      127.0.0.1 UTILISATEUR CONNECTE
+07/04/2022 04:43:07 None                     /GSB/connexion?      127.0.0.1 Tentative de connexion avec : collet
+07/04/2022 05:01:51 None                     /GSB/connexion?      127.0.0.1 Tentative de connexion avec : swiss
+07/04/2022 05:02:10 None                     /GSB/connexion?      127.0.0.1 Tentative de connexion avec : swiss
+07/04/2022 05:02:35 None                     /GSB/connexion?      127.0.0.1 Tentative de connexion avec : swiss
+07/04/2022 07:03:58 axel                     /GSB/connexion?      127.0.0.1 UTILISATEUR CONNECTE
+07/04/2022 07:06:19 axel                     /GSB/medecins?       127.0.0.1 l'utilisateur à accedé à une ressources
+07/04/2022 07:06:19 axel                     /GSB/medicaments?    127.0.0.1 l'utilisateur à accedé à une ressources
+07/04/2022 07:06:22 axel                     /GSB/medecins?       127.0.0.1 l'utilisateur à accedé à une ressources
+07/04/2022 07:06:22 axel                     /GSB/medicaments?    127.0.0.1 l'utilisateur à accedé à une ressources
+07/04/2022 07:06:24 axel                     /GSB/medecins?       127.0.0.1 l'utilisateur à accedé à une ressources
+07/04/2022 07:06:24 axel                     /GSB/medicaments?    127.0.0.1 l'utilisateur à accedé à une ressources
+07/04/2022 07:06:33 axel                     /GSB/medecins?       127.0.0.1 l'utilisateur à accedé à une ressources
+07/04/2022 07:06:33 axel                     /GSB/medicaments?    127.0.0.1 l'utilisateur à accedé à une ressources
+07/04/2022 09:11:50 swiss                    /GSB/connexion?      127.0.0.1 UTILISATEUR CONNECTE07/04/2022 09:11:51 swiss                    /GSB/connexion?      127.0.0.1 UTILISATEUR CONNECTE07/04/2022 09:11:52 swiss                    /GSB/connexion?      127.0.0.1 UTILISATEUR CONNECTE07/04/2022 09:11:52 swiss                    /GSB/connexion?      127.0.0.1 UTILISATEUR CONNECTE07/04/2022 09:11:52 swiss                    /GSB/connexion?      127.0.0.1 UTILISATEUR CONNECTE07/04/2022 09:11:52 swiss                    /GSB/connexion?      127.0.0.1 UTILISATEUR CONNECTE07/04/2022 09:11:52 swiss                    /GSB/connexion?      127.0.0.1 UTILISATEUR CONNECTE07/04/2022 09:11:53 swiss                    /GSB/connexion?      127.0.0.1 UTILISATEUR CONNECTE07/04/2022 09:11:53 swiss                    /GSB/connexion?      127.0.0.1 UTILISATEUR CONNECTE07/04/2022 09:11:53 swiss                    /GSB/connexion?      127.0.0.1 UTILISATEUR CONNECTE07/04/2022 09:11:53 swiss                    /GSB/connexion?      127.0.0.1 UTILISATEUR CONNECTE07/04/2022 09:11:53 swiss                    /GSB/connexion?      127.0.0.1 UTILISATEUR CONNECTE07/04/2022 09:11:54 swiss                    /GSB/connexion?      127.0.0.1 UTILISATEUR CONNECTE07/04/2022 09:11:54 swiss                    /GSB/connexion?      127.0.0.1 UTILISATEUR CONNECTE07/04/2022 09:11:55 swiss                    /GSB/connexion?      127.0.0.1 UTILISATEUR CONNECTE07/04/2022 09:11:55 swiss                    /GSB/connexion?      127.0.0.1 UTILISATEUR CONNECTE07/04/2022 09:14:48 swiss                    /GSB/connexion?      127.0.0.1 UTILISATEUR CONNECTE07/04/2022 09:15:49 swiss                    /GSB/connexion?      127.0.0.1 UTILISATEUR CONNECTE07/04/2022 09:17:03 swiss                    /GSB/connexion?      127.0.0.1 UTILISATEUR CONNECTE07/04/2022 09:17:17 swiss                    /GSB/connexion?      127.0.0.1 UTILISATEUR CONNECTE07/04/2022 09:18:27 swiss                    /GSB/connexion?      127.0.0.1 UTILISATEUR CONNECTE07/04/2022 09:19:21 swiss                    /GSB/connexion?      127.0.0.1 UTILISATEUR CONNECTE07/04/2022 09:22:10 swiss                    /GSB/connexion?      127.0.0.1 UTILISATEUR CONNECTE07/04/2022 09:22:48 swiss                    /GSB/connexion?      127.0.0.1 UTILISATEUR CONNECTE07/04/2022 09:27:27 swiss                    /GSB/connexion?      127.0.0.1 UTILISATEUR CONNECTE07/04/2022 09:28:24 swiss                    /GSB/connexion?      127.0.0.1 UTILISATEUR CONNECTE07/04/2022 09:28:49 swiss                    /GSB/connexion?      127.0.0.1 UTILISATEUR CONNECTE07/04/2022 09:29:59 swiss                    /GSB/connexion?      127.0.0.1 UTILISATEUR CONNECTE07/04/2022 09:34:32 swiss                    /GSB/connexion?      127.0.0.1 UTILISATEUR CONNECTE07/04/2022 09:36:33 swiss                    /GSB/connexion?      127.0.0.1 UTILISATEUR CONNECTE07/04/2022 09:54:54 axel                     /GSB/connexion?      127.0.0.1 UTILISATEUR CONNECTE07/04/2022 09:54:56 axel                     /GSB/medecins?       127.0.0.1 l'utilisateur à accedé à une ressources07/04/2022 09:54:56 axel                     /GSB/medicaments?    127.0.0.1 l'utilisateur à accedé à une ressources22/04/2022 17:22:28 axel                     /GSB/connexion?      127.0.0.1 INFO    UTILISATEUR CONNECTE
+22/04/2022 17:30:38 axel                     /GSB/connexion?      127.0.0.1 INFO    UTILISATEUR CONNECTE
+22/04/2022 17:30:43 axel                     /GSB/medecins?       127.0.0.1 INFO    l'utilisateur à accedé à une ressources
+22/04/2022 17:30:43 axel                     /GSB/medicaments?    127.0.0.1 INFO    l'utilisateur à accedé à une ressources
+22/04/2022 17:34:20 axel                     /GSB/connexion?      127.0.0.1 INFO    UTILISATEUR CONNECTE
+22/04/2022 17:35:26 axel                     /GSB/connexion?      127.0.0.1 INFO    UTILISATEUR CONNECTE
+22/04/2022 17:35:41 axel                     /GSB/medecins?       127.0.0.1 INFO    l'utilisateur à accedé à une ressources
+22/04/2022 17:35:41 axel                     /GSB/medicaments?    127.0.0.1 INFO    l'utilisateur à accedé à une ressources
+22/04/2022 18:03:00 axel                     /GSB/connexion?      127.0.0.1 INFO    UTILISATEUR CONNECTE
+22/04/2022 18:10:11 axel                     /GSB/connexion?      127.0.0.1 INFO    UTILISATEUR CONNECTE
+22/04/2022 18:10:15 axel                     /GSB/medecins?       127.0.0.1 INFO    l'utilisateur à accedé à une ressources
+26/04/2022 10:00:07 axel                     /GSB/connexion?      127.0.0.1 INFO    UTILISATEUR CONNECTE
+26/04/2022 10:00:24 axel                     /GSB/connexion?      127.0.0.1 INFO    UTILISATEUR CONNECTE
+26/04/2022 10:00:33 axel                     /GSB/medecins?       127.0.0.1 INFO    l'utilisateur à accedé à une ressources
+26/04/2022 10:02:15 None                     /GSB/connexion?      127.0.0.1 INFO    Tentative de connexion avec : axel157rmllp
+26/04/2022 10:02:22 axel                     /GSB/connexion?      127.0.0.1 INFO    UTILISATEUR CONNECTE
+26/04/2022 10:02:57 axel                     /GSB/connexion?      127.0.0.1 INFO    UTILISATEUR CONNECTE
+26/04/2022 10:03:55 axel                     /GSB/medecins?       127.0.0.1 INFO    l'utilisateur à accedé à une ressources
+26/04/2022 10:04:12 axel                     /GSB/connexion?      127.0.0.1 INFO    UTILISATEUR CONNECTE
+26/04/2022 10:05:17 axel                     /GSB/connexion?      127.0.0.1 INFO    UTILISATEUR CONNECTE
+26/04/2022 10:06:43 axel                     /GSB/connexion?      127.0.0.1 INFO    UTILISATEUR CONNECTE
+26/04/2022 10:12:45 axel                     /GSB/connexion?      127.0.0.1 INFO    UTILISATEUR CONNECTE
+26/04/2022 10:12:47 axel                     /GSB/medecins?       127.0.0.1 INFO    l'utilisateur à accedé à une ressources
+26/04/2022 10:14:18 axel                     /GSB/connexion?      127.0.0.1 INFO    UTILISATEUR CONNECTE
+26/04/2022 10:14:20 axel                     /GSB/medecins?       127.0.0.1 INFO    l'utilisateur à accedé à une ressources
+26/04/2022 10:14:20 axel                     /GSB/medicaments?    127.0.0.1 INFO    l'utilisateur à accedé à une ressources
+26/04/2022 10:16:44 axel                     /GSB/connexion?      127.0.0.1 INFO    UTILISATEUR CONNECTE
+26/04/2022 10:16:45 axel                     /GSB/medecins?       127.0.0.1 INFO    l'utilisateur à accedé à une ressources
+26/04/2022 10:16:45 axel                     /GSB/medicaments?    127.0.0.1 INFO    l'utilisateur à accedé à une ressources
+26/04/2022 10:57:20 axel                     /GSB/connexion?      127.0.0.1 INFO    UTILISATEUR CONNECTE
+26/04/2022 10:58:29 axel                     /GSB/medecins?       127.0.0.1 INFO    l'utilisateur à accedé à une ressources
+26/04/2022 10:58:29 axel                     /GSB/medicaments?    127.0.0.1 INFO    l'utilisateur à accedé à une ressources
+26/04/2022 11:04:38 None                     /GSB/connexion?      127.0.0.1 INFO    Tentative de connexion avec : axel157rmllp
+26/04/2022 11:04:44 axel                     /GSB/connexion?      127.0.0.1 INFO    UTILISATEUR CONNECTE
+26/04/2022 11:05:33 axel                     /GSB/medecins?       127.0.0.1 INFO    l'utilisateur à accedé à une ressources
+26/04/2022 11:05:33 axel                     /GSB/medicaments?    127.0.0.1 INFO    l'utilisateur à accedé à une ressources
+26/04/2022 11:14:51 axel                     /GSB/connexion?      127.0.0.1 INFO    UTILISATEUR CONNECTE
+26/04/2022 11:14:53 axel                     /GSB/medecins?       127.0.0.1 INFO    l'utilisateur à accedé à une ressources
+26/04/2022 11:14:53 axel                     /GSB/medicaments?    127.0.0.1 INFO    l'utilisateur à accedé à une ressources
+26/04/2022 11:16:05 axel                     /GSB/connexion?      127.0.0.1 INFO    UTILISATEUR CONNECTE
+26/04/2022 11:16:07 axel                     /GSB/medecins?       127.0.0.1 INFO    l'utilisateur à accedé à une ressources
+26/04/2022 11:16:07 axel                     /GSB/medicaments?    127.0.0.1 INFO    l'utilisateur à accedé à une ressources
+26/04/2022 11:32:47 None                     /GSB/medicaments?    127.0.0.1 INFO    A tenté d'acceder à une ressource sans être connecté
+26/04/2022 11:43:54 axel                     /GSB/connexion?      127.0.0.1 INFO    UTILISATEUR CONNECTE
+26/04/2022 11:43:55 axel                     /GSB/medecins?       127.0.0.1 INFO    l'utilisateur à accedé à une ressources
+26/04/2022 11:43:56 axel                     /GSB/medicaments?    127.0.0.1 INFO    l'utilisateur à accedé à une ressources
+26/04/2022 11:46:02 axel                     /GSB/connexion?      127.0.0.1 INFO    UTILISATEUR CONNECTE
+26/04/2022 11:46:04 axel                     /GSB/medecins?       127.0.0.1 INFO    l'utilisateur à accedé à une ressources
+26/04/2022 11:46:04 axel                     /GSB/medicaments?    127.0.0.1 INFO    l'utilisateur à accedé à une ressources
+26/04/2022 11:47:22 axel                     /GSB/connexion?      127.0.0.1 INFO    UTILISATEUR CONNECTE
+26/04/2022 11:47:24 axel                     /GSB/medecins?       127.0.0.1 INFO    l'utilisateur à accedé à une ressources
+26/04/2022 11:47:24 axel                     /GSB/medicaments?    127.0.0.1 INFO    l'utilisateur à accedé à une ressources
+26/04/2022 11:47:50 axel                     /GSB/medicament/2717/? 127.0.0.1 INFO    l'utilisateur à accedé à une ressources
+26/04/2022 11:47:50 axel                     /GSB/medicament/1827/? 127.0.0.1 INFO    l'utilisateur à accedé à une ressources
+26/04/2022 11:49:27 axel                     /GSB/connexion?      127.0.0.1 INFO    UTILISATEUR CONNECTE
+26/04/2022 11:49:29 axel                     /GSB/medecins?       127.0.0.1 INFO    l'utilisateur à accedé à une ressources
+26/04/2022 11:49:29 axel                     /GSB/medicaments?    127.0.0.1 INFO    l'utilisateur à accedé à une ressources
+26/04/2022 11:50:03 axel                     /GSB/medicament/2717/? 127.0.0.1 INFO    l'utilisateur à accedé à une ressources
+26/04/2022 11:50:03 axel                     /GSB/medicament/3148/? 127.0.0.1 INFO    l'utilisateur à accedé à une ressources
+26/04/2022 11:51:28 axel                     /GSB/connexion?      127.0.0.1 INFO    UTILISATEUR CONNECTE
+26/04/2022 11:51:31 axel                     /GSB/medecins?       127.0.0.1 INFO    l'utilisateur à accedé à une ressources
+26/04/2022 11:51:31 axel                     /GSB/medicaments?    127.0.0.1 INFO    l'utilisateur à accedé à une ressources
+26/04/2022 11:52:04 axel                     /GSB/medicament/2717/? 127.0.0.1 INFO    l'utilisateur à accedé à une ressources
+26/04/2022 11:52:04 axel                     /GSB/medicament/3148/? 127.0.0.1 INFO    l'utilisateur à accedé à une ressources
+26/04/2022 11:53:57 axel                     /GSB/medicament/2717/? 127.0.0.1 INFO    l'utilisateur à accedé à une ressources
+26/04/2022 11:53:58 axel                     /GSB/medicament/3148/? 127.0.0.1 INFO    l'utilisateur à accedé à une ressources
+26/04/2022 11:55:48 axel                     /GSB/medicament/2717/? 127.0.0.1 INFO    l'utilisateur à accedé à une ressources
+26/04/2022 11:55:48 axel                     /GSB/medicament/3148/? 127.0.0.1 INFO    l'utilisateur à accedé à une ressources
+26/04/2022 11:56:18 axel                     /GSB/medicament/2717/? 127.0.0.1 INFO    l'utilisateur à accedé à une ressources
+26/04/2022 11:56:18 axel                     /GSB/medicament/3148/? 127.0.0.1 INFO    l'utilisateur à accedé à une ressources
+26/04/2022 11:56:50 axel                     /GSB/medicament/2717/? 127.0.0.1 INFO    l'utilisateur à accedé à une ressources
+26/04/2022 11:56:50 axel                     /GSB/medicament/3148/? 127.0.0.1 INFO    l'utilisateur à accedé à une ressources
+26/04/2022 11:56:53 axel                     /GSB/medicament/2717/? 127.0.0.1 INFO    l'utilisateur à accedé à une ressources
+26/04/2022 11:56:53 axel                     /GSB/medicament/3148/? 127.0.0.1 INFO    l'utilisateur à accedé à une ressources
+26/04/2022 11:58:28 None                     /GSB/medicament/2717/? 127.0.0.1 INFO    A tenté d'acceder à une ressource sans être connecté
+26/04/2022 11:58:28 None                     /GSB/medicament/3148/? 127.0.0.1 INFO    A tenté d'acceder à une ressource sans être connecté
+26/04/2022 11:58:42 None                     /GSB/medicament/2717/? 127.0.0.1 INFO    A tenté d'acceder à une ressource sans être connecté
+26/04/2022 11:58:42 None                     /GSB/medicament/3148/? 127.0.0.1 INFO    A tenté d'acceder à une ressource sans être connecté
+26/04/2022 11:58:46 None                     /GSB/medicament/2717/? 127.0.0.1 INFO    A tenté d'acceder à une ressource sans être connecté
+26/04/2022 11:58:46 None                     /GSB/medicament/3148/? 127.0.0.1 INFO    A tenté d'acceder à une ressource sans être connecté
+26/04/2022 11:58:46 None                     /GSB/medicament/2717/? 127.0.0.1 INFO    A tenté d'acceder à une ressource sans être connecté
+26/04/2022 11:58:46 None                     /GSB/medicament/3148/? 127.0.0.1 INFO    A tenté d'acceder à une ressource sans être connecté
+26/04/2022 11:58:46 None                     /GSB/medicament/2717/? 127.0.0.1 INFO    A tenté d'acceder à une ressource sans être connecté
+26/04/2022 11:58:46 None                     /GSB/medicament/3148/? 127.0.0.1 INFO    A tenté d'acceder à une ressource sans être connecté
+26/04/2022 11:58:46 None                     /GSB/medicament/2717/? 127.0.0.1 INFO    A tenté d'acceder à une ressource sans être connecté
+26/04/2022 11:58:46 None                     /GSB/medicament/3148/? 127.0.0.1 INFO    A tenté d'acceder à une ressource sans être connecté
+26/04/2022 11:58:46 None                     /GSB/medicament/2717/? 127.0.0.1 INFO    A tenté d'acceder à une ressource sans être connecté
+26/04/2022 11:58:47 None                     /GSB/medicament/3148/? 127.0.0.1 INFO    A tenté d'acceder à une ressource sans être connecté
+26/04/2022 11:58:47 None                     /GSB/medicament/2717/? 127.0.0.1 INFO    A tenté d'acceder à une ressource sans être connecté
+26/04/2022 11:58:47 None                     /GSB/medicament/3148/? 127.0.0.1 INFO    A tenté d'acceder à une ressource sans être connecté
+26/04/2022 11:58:47 None                     /GSB/medicament/2717/? 127.0.0.1 INFO    A tenté d'acceder à une ressource sans être connecté
+26/04/2022 11:58:47 None                     /GSB/medicament/3148/? 127.0.0.1 INFO    A tenté d'acceder à une ressource sans être connecté
+26/04/2022 11:58:47 None                     /GSB/medicament/2717/? 127.0.0.1 INFO    A tenté d'acceder à une ressource sans être connecté
+26/04/2022 11:58:47 None                     /GSB/medicament/3148/? 127.0.0.1 INFO    A tenté d'acceder à une ressource sans être connecté
+26/04/2022 11:58:47 None                     /GSB/medicament/2717/? 127.0.0.1 INFO    A tenté d'acceder à une ressource sans être connecté
+26/04/2022 11:58:47 None                     /GSB/medicament/3148/? 127.0.0.1 INFO    A tenté d'acceder à une ressource sans être connecté
+26/04/2022 11:58:47 None                     /GSB/medicament/2717/? 127.0.0.1 INFO    A tenté d'acceder à une ressource sans être connecté
+26/04/2022 11:58:47 None                     /GSB/medicament/3148/? 127.0.0.1 INFO    A tenté d'acceder à une ressource sans être connecté
+26/04/2022 11:58:47 None                     /GSB/medicament/2717/? 127.0.0.1 INFO    A tenté d'acceder à une ressource sans être connecté
+26/04/2022 11:58:48 None                     /GSB/medicament/3148/? 127.0.0.1 INFO    A tenté d'acceder à une ressource sans être connecté
+26/04/2022 11:58:48 None                     /GSB/medicament/2717/? 127.0.0.1 INFO    A tenté d'acceder à une ressource sans être connecté
+26/04/2022 11:58:48 None                     /GSB/medicament/3148/? 127.0.0.1 INFO    A tenté d'acceder à une ressource sans être connecté
+26/04/2022 12:00:35 None                     /GSB/medicament/2717/? 127.0.0.1 INFO    A tenté d'acceder à une ressource sans être connecté
+26/04/2022 12:00:35 None                     /GSB/medicament/3148/? 127.0.0.1 INFO    A tenté d'acceder à une ressource sans être connecté
+26/04/2022 12:00:37 None                     /GSB/medicament/2717/? 127.0.0.1 INFO    A tenté d'acceder à une ressource sans être connecté
+26/04/2022 12:00:37 None                     /GSB/medicament/3148/? 127.0.0.1 INFO    A tenté d'acceder à une ressource sans être connecté
+26/04/2022 12:01:19 None                     /GSB/medicament/2717/? 127.0.0.1 INFO    A tenté d'acceder à une ressource sans être connecté
+26/04/2022 12:01:19 None                     /GSB/medicament/3148/? 127.0.0.1 INFO    A tenté d'acceder à une ressource sans être connecté
+26/04/2022 12:02:12 None                     /GSB/medicament/2717/? 127.0.0.1 INFO    A tenté d'acceder à une ressource sans être connecté
+26/04/2022 12:02:12 None                     /GSB/medicament/3148/? 127.0.0.1 INFO    A tenté d'acceder à une ressource sans être connecté
+26/04/2022 12:02:13 None                     /GSB/medicament/2717/? 127.0.0.1 INFO    A tenté d'acceder à une ressource sans être connecté
+26/04/2022 12:02:13 None                     /GSB/medicament/3148/? 127.0.0.1 INFO    A tenté d'acceder à une ressource sans être connecté
+26/04/2022 12:02:29 None                     /GSB/medicament/2717/? 127.0.0.1 INFO    A tenté d'acceder à une ressource sans être connecté
+26/04/2022 12:02:29 None                     /GSB/medicament/3148/? 127.0.0.1 INFO    A tenté d'acceder à une ressource sans être connecté
+26/04/2022 12:02:30 None                     /GSB/medicament/2717/? 127.0.0.1 INFO    A tenté d'acceder à une ressource sans être connecté
+26/04/2022 12:02:30 None                     /GSB/medicament/3148/? 127.0.0.1 INFO    A tenté d'acceder à une ressource sans être connecté
+26/04/2022 12:02:30 None                     /GSB/medicament/2717/? 127.0.0.1 INFO    A tenté d'acceder à une ressource sans être connecté
+26/04/2022 12:02:30 None                     /GSB/medicament/3148/? 127.0.0.1 INFO    A tenté d'acceder à une ressource sans être connecté
+26/04/2022 12:02:30 None                     /GSB/medicament/2717/? 127.0.0.1 INFO    A tenté d'acceder à une ressource sans être connecté
+26/04/2022 12:02:30 None                     /GSB/medicament/3148/? 127.0.0.1 INFO    A tenté d'acceder à une ressource sans être connecté
+26/04/2022 12:02:30 None                     /GSB/medicament/2717/? 127.0.0.1 INFO    A tenté d'acceder à une ressource sans être connecté
+26/04/2022 12:02:30 None                     /GSB/medicament/3148/? 127.0.0.1 INFO    A tenté d'acceder à une ressource sans être connecté
+26/04/2022 12:02:30 None                     /GSB/medicament/2717/? 127.0.0.1 INFO    A tenté d'acceder à une ressource sans être connecté
+26/04/2022 12:02:30 None                     /GSB/medicament/3148/? 127.0.0.1 INFO    A tenté d'acceder à une ressource sans être connecté
+26/04/2022 12:02:31 None                     /GSB/medicament/2717/? 127.0.0.1 INFO    A tenté d'acceder à une ressource sans être connecté
+26/04/2022 12:02:31 None                     /GSB/medicament/3148/? 127.0.0.1 INFO    A tenté d'acceder à une ressource sans être connecté
+26/04/2022 12:02:35 None                     /GSB/medicament/2717/? 127.0.0.1 INFO    A tenté d'acceder à une ressource sans être connecté
+26/04/2022 12:02:35 None                     /GSB/medicament/4071/? 127.0.0.1 INFO    A tenté d'acceder à une ressource sans être connecté
+26/04/2022 13:08:03 None                     /GSB/medicament/2717/? 127.0.0.1 INFO    A tenté d'acceder à une ressource sans être connecté
+26/04/2022 13:08:03 None                     /GSB/medicament/4071/? 127.0.0.1 INFO    A tenté d'acceder à une ressource sans être connecté
+26/04/2022 13:08:44 axel                     /GSB/connexion?      127.0.0.1 INFO    UTILISATEUR CONNECTE
+26/04/2022 13:08:46 axel                     /GSB/medecins?       127.0.0.1 INFO    l'utilisateur à accedé à une ressources
+26/04/2022 13:08:46 axel                     /GSB/medicaments?    127.0.0.1 INFO    l'utilisateur à accedé à une ressources
+26/04/2022 13:09:21 axel                     /GSB/medicament/4071/? 127.0.0.1 INFO    l'utilisateur à accedé à une ressources
+26/04/2022 13:09:21 axel                     /GSB/medicament/1827/? 127.0.0.1 INFO    l'utilisateur à accedé à une ressources
+26/04/2022 13:12:47 axel                     /GSB/connexion?      127.0.0.1 INFO    UTILISATEUR CONNECTE
+26/04/2022 13:12:49 axel                     /GSB/medecins?       127.0.0.1 INFO    l'utilisateur à accedé à une ressources
+26/04/2022 13:12:49 axel                     /GSB/medicaments?    127.0.0.1 INFO    l'utilisateur à accedé à une ressources
+26/04/2022 13:13:01 axel                     /GSB/medicament/4071/? 127.0.0.1 INFO    l'utilisateur à accedé à une ressources
+26/04/2022 13:13:01 axel                     /GSB/medicament/5297/? 127.0.0.1 INFO    l'utilisateur à accedé à une ressources
+26/04/2022 13:13:54 axel                     /GSB/connexion?      127.0.0.1 INFO    UTILISATEUR CONNECTE
+26/04/2022 13:13:56 axel                     /GSB/medecins?       127.0.0.1 INFO    l'utilisateur à accedé à une ressources
+26/04/2022 13:13:56 axel                     /GSB/medicaments?    127.0.0.1 INFO    l'utilisateur à accedé à une ressources
+26/04/2022 13:14:09 axel                     /GSB/medicament/1827/? 127.0.0.1 INFO    l'utilisateur à accedé à une ressources
+26/04/2022 13:14:09 axel                     /GSB/medicament/2717/? 127.0.0.1 INFO    l'utilisateur à accedé à une ressources
+26/04/2022 13:14:37 axel                     /GSB/medicament/2717/? 127.0.0.1 INFO    l'utilisateur à accedé à une ressources
+26/04/2022 13:14:37 axel                     /GSB/medicament/3440/? 127.0.0.1 INFO    l'utilisateur à accedé à une ressources
+26/04/2022 13:15:04 axel                     /GSB/medicament/2717/? 127.0.0.1 INFO    l'utilisateur à accedé à une ressources
+26/04/2022 13:15:04 axel                     /GSB/medicament/3440/? 127.0.0.1 INFO    l'utilisateur à accedé à une ressources
+26/04/2022 13:15:18 axel                     /GSB/medicament/2717/? 127.0.0.1 INFO    l'utilisateur à accedé à une ressources
+26/04/2022 13:15:18 axel                     /GSB/medicament/3440/? 127.0.0.1 INFO    l'utilisateur à accedé à une ressources
+26/04/2022 13:15:25 axel                     /GSB/medicament/2717/? 127.0.0.1 INFO    l'utilisateur à accedé à une ressources
+26/04/2022 13:15:25 axel                     /GSB/medicament/3440/? 127.0.0.1 INFO    l'utilisateur à accedé à une ressources
+26/04/2022 13:15:49 axel                     /GSB/medicament/2717/? 127.0.0.1 INFO    l'utilisateur à accedé à une ressources
+26/04/2022 13:15:49 axel                     /GSB/medicament/3440/? 127.0.0.1 INFO    l'utilisateur à accedé à une ressources
+26/04/2022 13:17:35 axel                     /GSB/connexion?      127.0.0.1 INFO    UTILISATEUR CONNECTE
+26/04/2022 13:17:37 axel                     /GSB/medecins?       127.0.0.1 INFO    l'utilisateur à accedé à une ressources
+26/04/2022 13:17:37 axel                     /GSB/medicaments?    127.0.0.1 INFO    l'utilisateur à accedé à une ressources
+26/04/2022 13:17:48 axel                     /GSB/medicament/2717/? 127.0.0.1 INFO    l'utilisateur à accedé à une ressources
+26/04/2022 13:17:48 axel                     /GSB/medicament/2717/? 127.0.0.1 INFO    l'utilisateur à accedé à une ressources
+26/04/2022 13:18:46 axel                     /GSB/medicament/2717/? 127.0.0.1 INFO    l'utilisateur à accedé à une ressources
+26/04/2022 13:18:46 axel                     /GSB/medicament/2717/? 127.0.0.1 INFO    l'utilisateur à accedé à une ressources
+26/04/2022 13:22:05 axel                     /GSB/connexion?      127.0.0.1 INFO    UTILISATEUR CONNECTE
+26/04/2022 13:22:06 axel                     /GSB/medecins?       127.0.0.1 INFO    l'utilisateur à accedé à une ressources
+26/04/2022 13:22:06 axel                     /GSB/medicaments?    127.0.0.1 INFO    l'utilisateur à accedé à une ressources
+26/04/2022 13:22:18 axel                     /GSB/medicament/2717/? 127.0.0.1 INFO    l'utilisateur à accedé à une ressources
+26/04/2022 13:22:18 axel                     /GSB/medicament/5297/? 127.0.0.1 INFO    l'utilisateur à accedé à une ressources
+26/04/2022 13:23:00 axel                     /GSB/connexion?      127.0.0.1 INFO    UTILISATEUR CONNECTE
+26/04/2022 13:23:02 axel                     /GSB/medecins?       127.0.0.1 INFO    l'utilisateur à accedé à une ressources
+26/04/2022 13:23:02 axel                     /GSB/medicaments?    127.0.0.1 INFO    l'utilisateur à accedé à une ressources
+26/04/2022 13:23:12 axel                     /GSB/medicament/3440/? 127.0.0.1 INFO    l'utilisateur à accedé à une ressources
+26/04/2022 13:23:12 axel                     /GSB/medicament/4071/? 127.0.0.1 INFO    l'utilisateur à accedé à une ressources
+26/04/2022 13:23:21 axel                     /GSB/medicament/3440/? 127.0.0.1 INFO    l'utilisateur à accedé à une ressources
+26/04/2022 13:23:21 axel                     /GSB/medicament/4071/? 127.0.0.1 INFO    l'utilisateur à accedé à une ressources
+26/04/2022 13:49:00 None                     /GSB/medicament/3440/? 127.0.0.1 INFO    A tenté d'acceder à une ressource sans être connecté
+26/04/2022 13:49:00 None                     /GSB/medicament/4071/? 127.0.0.1 INFO    A tenté d'acceder à une ressource sans être connecté
+26/04/2022 13:49:07 None                     /GSB/medicament/3440/? 127.0.0.1 INFO    A tenté d'acceder à une ressource sans être connecté
+26/04/2022 13:49:07 None                     /GSB/medicament/4071/? 127.0.0.1 INFO    A tenté d'acceder à une ressource sans être connecté
+26/04/2022 13:49:15 None                     /GSB/medicament/3440/? 127.0.0.1 INFO    A tenté d'acceder à une ressource sans être connecté
+26/04/2022 13:49:15 None                     /GSB/medicament/4071/? 127.0.0.1 INFO    A tenté d'acceder à une ressource sans être connecté
+26/04/2022 13:49:34 axel                     /GSB/connexion?      127.0.0.1 INFO    UTILISATEUR CONNECTE
+26/04/2022 13:49:51 axel                     /GSB/medecins?       127.0.0.1 INFO    l'utilisateur à accedé à une ressources
+26/04/2022 13:49:51 axel                     /GSB/medicaments?    127.0.0.1 INFO    l'utilisateur à accedé à une ressources
+26/04/2022 13:50:14 axel                     /GSB/medicament/2717/? 127.0.0.1 INFO    l'utilisateur à accedé à une ressources
+26/04/2022 13:50:14 axel                     /GSB/medicament/10365/? 127.0.0.1 INFO    l'utilisateur à accedé à une ressources
+26/04/2022 13:54:41 axel                     /GSB/connexion?      127.0.0.1 INFO    UTILISATEUR CONNECTE
+26/04/2022 13:54:42 axel                     /GSB/medecins?       127.0.0.1 INFO    l'utilisateur à accedé à une ressources
