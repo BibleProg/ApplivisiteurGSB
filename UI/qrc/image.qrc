@@ -1,0 +1,9 @@
+@
+<RCC>
+  <qresource prefix="/image"/>
+    <file>image/user.png</file>
+    <file>image/logogsb.png</file>
+    <file>image/pencil.png</file>
+  </qresource>
+</RCC>
+@
