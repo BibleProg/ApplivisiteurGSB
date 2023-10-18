@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1066</width>
+    <height>965</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">*{
+font-family: century gothic;
+font-size: 24px;
+}
+
+QDialog
+{
+background-color: qlineargradient(spread:pad, x1:0.221, y1:0.772909, x2:1, y2:0, stop:0 rgba(70, 169, 255, 255), stop:1 rgba(255, 255, 255, 255))
+}
+
+#NavBar
+{
+background-color: #333;
+}
+
+QLabel
+{
+color:white;
+background: transparent;
+font-family: Lemon Milk;
+font-style: italic;
+}
+
+#AccueilBouton
+{
+background: transparent;
+color: white;
+font-style: normal;
+font-size: 20px;
+font-family: Lemon Milk;
+}
+
+#Logo
+{
+background: transparent;
+}
+
+#SaisieRapportBouton
+{
+background: transparent;
+color: skyblue;
+font-style: normal;
+font-size: 20px;
+font-family: Lemon Milk;
+}
+
+#selectionPraticiens{
+background: white;
+color: black;
+border-radius: 10px;
+}
+
+#dateRapport{
+background: white;
+color: black;
+border-radius: 10px;
+}
+
+#motif{
+background: white;
+color: black;
+border-radius: 10px;
+}
+
+#bilan{
+background: white;
+color: black;
+border-radius: 10px;
+}
+
+#selectionMedicamentNom{
+background: white;
+color: black;
+border-radius: 10px;
+}
+
+#selectionMedicamentQuantite{
+background: white;
+color: black;
+border-radius: 10px;
+}
+
+#boutonAjouterMedicament{
+background: white;
+color: black;
+border-radius: 10px;
+}
+
+#tableauOffreMedicaments{
+background: white;
+color: black;
+border-radius: 10px;
+}
+
+#NavBar
+{
+background-color: #333;
+}
+
+#PraticienLabel
+{
+color:black;
+font-family: Lemon Milk;
+font-style: normal;
+}
+
+#DateRapportLabel
+{
+color:black;
+font-family: Lemon Milk;
+font-style: normal;
+}
+
+#BilanLabel
+{
+color:black;
+font-family: Lemon Milk;
+font-style: normal;
+}
+
+#SelectionEchantillonsLabel
+{
+color:black;
+font-family: Lemon Milk;
+font-style: normal;
+}
+
+#boutonFormulaire
+{
+background:white;
+color:black;
+font-family: Lemon Milk;
+font-style: normal;
+}
+
+
+#NombreEchantillonsLabel
+{
+color:black;
+font-family: Lemon Milk;
+font-style: normal;
+}
+
+#MotifLabel
+{
+color:black;
+font-family: Lemon Milk;
+font-style: normal;
+}
+
+#boutonFormulaire{
+background: white;
+color: black;
+border-radius: 10px;
+}
+
+</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <item row="0" column="0">
+    <layout class="QVBoxLayout" name="tout">
+     <item>
+      <widget class="QFrame" name="NavBar">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Minimum">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout_2">
+          <property name="sizeConstraint">
+           <enum>QLayout::SetMinimumSize</enum>
+          </property>
+          <item>
+           <widget class="QToolButton" name="Logo">
+            <property name="enabled">
+             <bool>true</bool>
+            </property>
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Minimum">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>qrc/image/logogsb.png</normaloff>qrc/image/logogsb.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>128</width>
+              <height>128</height>
+             </size>
+            </property>
+            <property name="toolButtonStyle">
+             <enum>Qt::ToolButtonIconOnly</enum>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="LogoNom">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Minimum">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="text">
+             <string>APPLIVISITEUR</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <widget class="QPushButton" name="SaisieRapportBouton">
+          <property name="enabled">
+           <bool>true</bool>
+          </property>
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="mouseTracking">
+           <bool>false</bool>
+          </property>
+          <property name="text">
+           <string>Statistiques</string>
+          </property>
+          <property name="checkable">
+           <bool>false</bool>
+          </property>
+          <property name="autoDefault">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="AccueilBouton">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="mouseTracking">
+           <bool>false</bool>
+          </property>
+          <property name="text">
+           <string>Accueil</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_2">
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout">
+         <item>
+          <layout class="QGridLayout" name="gridLayout_2">
+           <item row="2" column="0">
+            <widget class="QPushButton" name="medicaments">
+             <property name="text">
+              <string>Médicaments</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="0">
+            <widget class="QPushButton" name="CR">
+             <property name="text">
+              <string>Compte rendus</string>
+             </property>
+            </widget>
+           </item>
+           <item row="3" column="0">
+            <widget class="QPushButton" name="Visiteurs">
+             <property name="text">
+              <string>Visiteurs</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="0">
+            <widget class="QPushButton" name="echantillons">
+             <property name="text">
+              <string>Echantillons</string>
+             </property>
+            </widget>
+           </item>
+           <item row="4" column="0">
+            <widget class="QPushButton" name="Praticiens">
+             <property name="text">
+              <string>Praticiens</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QGridLayout" name="gridLayout_4">
+           <item row="5" column="0" colspan="2">
+            <widget class="QTableWidget" name="TableauStats">
+             <property name="columnCount">
+              <number>0</number>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <spacer name="verticalSpacer_5">
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="sizeType">
+            <enum>QSizePolicy::Fixed</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>20</width>
+             <height>15</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <spacer name="verticalSpacer_6">
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="sizeType">
+            <enum>QSizePolicy::Fixed</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>20</width>
+             <height>15</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
