@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block titre %}Test{% endblock %}
+
+{% block contenu %}
+<table>
+    <tr>
+        <th>Nom</th>
+        <th>Mot de passe</th>
+        <th>Token</th>
+    </tr>
+    {% for utilisateur in utilisateur_list %}
+    <tr>
+        <td>{{utilisateur.user}}</td>
+        <td>{{utilisateur.password}}</td>
+        <td>{{utilisateur.token}}</td>
+        <td>
+            <a href="./update/{{utilisateur.id}}">Modification</a>
+            <a href="./delete/{{utilisateur.id}}">Suppression</a>
+        </td>
+    </tr>
+    {% endfor %}
+</table>
+
+<a href="./create">Ajouter un contact</a>
+
+{% endblock %}
